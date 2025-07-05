@@ -11,6 +11,8 @@ The demo showcases different usages and allows you to evaluate visual quality as
 
 [Download link](https://drive.google.com/file/d/1BOzZkNZaa3oVsfl1yqchq9VoSyjKFb1F/view)
 
-## Resources
+## Discord Community
 
-- 💬 [Discord Community](https://discord.gg/sX48CssHWM) - Ask questions and chat with the community
+I've made a Discord where people can ask and chat about all things blending.
+
+<iframe src="https://discord.com/widget?id=1279047221362294964&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
