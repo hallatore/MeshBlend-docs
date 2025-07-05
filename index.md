@@ -14,7 +14,7 @@ Games, offline rendering cinematics and virtual production in Unreal are all sup
 
 MeshBlend is not yet available. It will release on Fab soon! 
 <br>
-Join [Discord](https://discord.gg/sX48CssHWM) or follow me on [Bluesky](https://bsky.app/profile/hallatore.bsky.social) or [Twitter](https://x.com/toreler) to be notified when it launches!
+In the meantime join the [Discord](https://discord.gg/sX48CssHWM) or follow me on [Bluesky](https://bsky.app/profile/hallatore.bsky.social) or [Twitter](https://x.com/toreler) to be notified when it launches!
 
 ## Playable demo
 
@@ -24,6 +24,6 @@ The demo showcases different usages and allows you to evaluate visual quality as
 
 ## Discord Community
 
-I've made a Discord where people can ask and chat about all things blending.
+Have questions or wonder what MeshBlend can do? Join the Discord to see the latest!
 
 <iframe src="https://discord.com/widget?id=1279047221362294964&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
