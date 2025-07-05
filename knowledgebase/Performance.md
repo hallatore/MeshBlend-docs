@@ -6,7 +6,7 @@ order: 10
 
 
 
-## How many meshes can I blend?
+## How many meshes can it blend?
 MeshBlend is a screen space effect. You can have 5 or 5.000.000 blended meshes in your scene without much performance impact.
 
 ## Shader performance

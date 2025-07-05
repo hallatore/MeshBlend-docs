@@ -18,6 +18,8 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Decals & Mesh Decals** - Decals blend as if they are part of the mesh. (See demo for exact details)
 <br>
+:white_check_mark: **Static Meshes, Landscapes, Skeletal meshes and even particle** - As long as they are opaque and write depth
+<br>
 :white_check_mark: **TAA, TSR, DLSS, FSR** - Works great with any temporal AA solution, upsampling and frame generation
 <br>
 :white_check_mark: **PS5, Xbox Series X|S** - Works great on consoles
@@ -42,3 +44,5 @@ Check on Discord to see if your use case has been tested by someone already.
 :x: **Forward shading** - Forward shading is not supported
 <br>
 :x: **Translucent materials** - Translucent materials render after and won't be affected by MeshBlend
+<br>
+:x: **Stuff underneath a SingleWaterLayer plane** - SingleWaterLayer is an opaque shading model. So stuff underneath it is not rendered to depth. (*But the material itself can actually blend with other meshes*)
