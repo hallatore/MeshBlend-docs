@@ -8,6 +8,8 @@ Unreal is used in many ways and not all use cases have been validated yet. Mater
 <br>
 Check on Discord to see if your use case has been tested by someone already.
 
+:white_check_mark: **Launcher version** - Works with both launcher and source built versions of Unreal Engine.
+<br>
 :white_check_mark: **Opaque materials (Surface, SubSurfaceScattering, Two-Sided, etc)**
 <br>
 :white_check_mark: **Nanite & Nanite displacement**

@@ -1,5 +1,17 @@
 # Blend Sizes
 
+The blend sizes are (almost) equal to centimeters when two blending meshes lay flat next to each other.
+But blending angle, noise, etc all affect the final blend size displayed on screen.
+
+
+
+> [!NOTE]
+> ![Different blend sizes in debug view](BlendSizes_Debug.png)
+> <br>
+> In debug view each size is colored to visualize what blend size the mesh has.
+> <br>
+> `Small=Green` `Medium=Cyan` `Large=Blue` `Extra Large=Red`
+
 ## Blend Presets
 
 There are 4 preset sizes you can assign to a mesh. Small, Medium, Large and Extra Large.
