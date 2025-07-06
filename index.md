@@ -17,7 +17,7 @@ Games, offline rendering cinematics and virtual production in Unreal are all sup
 Due to popular demand I've started providing [Custom Studio License](<./Knowledgebase/Custom Studio License.md>) to studios. 
 <br>
 <br>
-MeshBlend is not yet available on **Fab**, but it will release on soon! 
+MeshBlend is not yet available on **Fab**, but it will release soon! 
 <br>
 In the meantime join the [Discord](https://discord.gg/sX48CssHWM) or follow me on [Bluesky](https://bsky.app/profile/hallatore.bsky.social) or [Twitter](https://x.com/toreler) to be notified when it launches!
 
