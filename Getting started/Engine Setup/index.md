@@ -1,6 +1,17 @@
+---
+order: 10
+---
+
 # Default Setup
 
 The default setup uses the material Ambient Occlusion channel to send data between the meshes in the scene and the shader through the GBuffer. We need a GBuffer texture to store our data, and with the launcher version of unreal we have to reuse an existing one.
+
+
+## Limitations
+
+:x: **Static lighting** - Static lighting uses the same Material AO channel and cannot be used. Only dynamic lighting is supported
+<br>
+:x: **Material AO** - No mesh in the project can use Material AO. Having it hooked up will lead to a slight blur that will show up in the MeshBlend Debug View.
 
 ## Shader changes
 

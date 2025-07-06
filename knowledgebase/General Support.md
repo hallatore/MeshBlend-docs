@@ -29,6 +29,14 @@ Check on Discord to see if your use case has been tested by someone already.
 :hourglass: **Virtual Production|NDisplay** - Use overscan for best results (*Note yet validated: Currently being tested on a HUGE XR Led wall*)
 <br>
 
+## Default Setup - Material AO
+
+The default launcher version setup uses the Material AO channel to transfer data to the GBuffer. This comes with some limitations.
+
+:x: **Static lighting** - Static lighting uses the same Material AO channel and cannot be used. Only dynamic lighting is supported
+<br>
+:x: **Material AO** - No mesh in the project can use Material AO. Having it hooked up will lead to a slight blur that will show up in the MeshBlend Debug View.
+
 ## Not validated yet or Planned for later
 
 :microscope: **Switch, Mobile, etc** - Should work, but has not been validated yet
