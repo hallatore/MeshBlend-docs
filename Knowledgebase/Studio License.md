@@ -1,16 +1,16 @@
 
-# Custom Studio License
+# Studio License
 
-With a studio license you get up and running faster, better targeting your project needs.
+With the studio license you get up and running faster, better targeting your project needs.
 
 
-:heavy_check_mark: **Company wide** - No Seat/Project restrictions
+:heavy_check_mark: **Company wide license** - No Seat/Project restrictions
 <br>
 :heavy_check_mark: **Early Access***
 <br>
-:heavy_check_mark: **Support contract**
-<br>
 :heavy_check_mark: **Evaluation period**
+<br>
+:heavy_check_mark: **Support contract**
 <br>
 :heavy_check_mark: **Optional NDA**
 
