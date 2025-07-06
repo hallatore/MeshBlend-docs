@@ -1,6 +1,5 @@
 # MeshBlend
 
-![MeshBlend](MeshBlend.png)
 
 MeshBlend is an Unreal Engine plugin enabling controllable blending of meshes. It's been battle tested and is used in real projects with different art styles and requirements ranging from Indie to AAA titles.
 
@@ -9,6 +8,9 @@ MeshBlend supports a wide range of scenarios and delivers a visually pleasing re
 Games, offline rendering cinematics and virtual production in Unreal are all supported. At its core MeshBlend balances performance, visual quality and artist workflow.
 
 **If it's a mesh, we can blend it**
+
+<video src="./MeshBlend_Rock_Clip.mp4" autoplay muted loop />
+
 
 ## Where to buy
 
