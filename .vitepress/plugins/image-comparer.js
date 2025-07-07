@@ -42,7 +42,7 @@ export function imageComparerPlugin(md) {
     const token = tokens[idx];
     const beforeImage = token.beforeImage;
     const afterImage = token.afterImage;
-    const imageId = `image-comparer-${Math.random().toString(36).substr(2, 9)}`;
+    const imageId = `image-comparer-${idx}`;
 
     return `
     <div class="ImageComparer" id="${imageId}">
