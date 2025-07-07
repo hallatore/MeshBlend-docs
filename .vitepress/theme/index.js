@@ -8,8 +8,8 @@ export default {
   extends: DefaultTheme,
   enhanceApp({ app, router, siteData }) {
     // This will only run on the client side
-    if (typeof window !== 'undefined') {
-      import('./imgsli.slider.js');
+    if (typeof window !== "undefined") {
+      import("./imgsli.slider.js");
     }
-  }
+  },
 };

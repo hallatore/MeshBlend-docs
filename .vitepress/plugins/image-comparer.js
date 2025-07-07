@@ -64,9 +64,6 @@ export function imageComparerPlugin(md) {
             <img class="after" alt="" src="${afterImage}">
         </div>
     </div>
-    <component is="script">
-    imgsli.slider(document.querySelectorAll("#${imageId}"));
-    </component>
     `;
   };
 }
