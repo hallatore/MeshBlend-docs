@@ -10,6 +10,8 @@ Check on Discord to see if your use case has been tested by someone already.
 
 :white_check_mark: **Launcher version** - Works with both launcher and source built versions of Unreal Engine.
 <br>
+:white_check_mark: **Unreal Engine 5.3 and up**
+<br>
 :white_check_mark: **Opaque materials (Surface, SubSurfaceScattering, Two-Sided, etc)**
 <br>
 :white_check_mark: **Nanite & Nanite displacement**

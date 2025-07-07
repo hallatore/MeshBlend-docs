@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
+import { imageComparerPlugin } from "./plugins/image-comparer.js";
 
 const sidebarOptions = {
   /*
@@ -72,6 +73,11 @@ export default defineConfig(
       title: "MeshBlend",
       description: "MeshBlend Documentation - If it's a mesh, we can blend it",
       head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+      markdown: {
+        config: (md) => {
+          md.use(imageComparerPlugin);
+        },
+      },
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
