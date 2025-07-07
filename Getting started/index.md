@@ -23,3 +23,7 @@ Make sure you follow the setup guide word for word. There are some things that a
 ### Landscape/Landscape Grass is not blending
 
 - Landscapes need a static blend ID and cannot be set with the helper function. See more about it in [Using MeshBlend](<Using MeshBlend/index.md>)
+
+### Mesh not blending after material update
+
+- Toggle MeshBlend OFF/ON from the editor toolbar. This resets all meshes and their blend.
