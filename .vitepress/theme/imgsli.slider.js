@@ -1,4 +1,6 @@
-﻿(function (imgsli) {
+﻿var windowProxy = window || {};
+
+(function (imgsli) {
   var init = function (element, images, basePath) {
     var box = element.querySelector(".box");
     var sliderDiv = element.querySelector(".slider");
@@ -224,4 +226,4 @@
       init(elements[i], images, basePath);
     }
   };
-})(window.imgsli || (window.imgsli = {}));
+})(windowProxy.imgsli || (windowProxy.imgsli = {}));
