@@ -16,8 +16,6 @@ At it's core the MeshBlend shader works on a grayscale mask where each mesh has 
 <br>
 There is helper function to recalculate a blend ID at runtime if needed, and there are also 5 static ID's per blend size that can be used for special cases.
 
-- A blended mesh has to blend with every other blended mesh it intersects with. You can't have a cliff made out of rocks that don't blend with the landscape that also has blending.
-
 ### Other notes
 
 - The blend size is always the smallest of the two intersecting sizes. A landscape set to Large blend with a pebble set to small will result in a small blend between the two.
