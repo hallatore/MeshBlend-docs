@@ -72,7 +72,17 @@ export default defineConfig(
     {
       title: "MeshBlend",
       description: "MeshBlend Documentation - If it's a mesh, we can blend it",
-      head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+      head: [
+        ["link", { rel: "icon", href: "/favicon.ico" }],
+        [
+          "script",
+          {
+            defer: "",
+            src: "https://static.cloudflareinsights.com/beacon.min.js",
+            "data-cf-beacon": '{"token": "4d0e440a9d8144fca348b79832e6aeef"}',
+          },
+        ],
+      ],
       markdown: {
         config: (md) => {
           md.use(imageComparerPlugin);
