@@ -23,14 +23,14 @@ After changing these you can restart the editor or hit `CTRL+SHIFT+.` to recompi
 ### Prevent Specular/Metalic values from modifying the GBufferAO data
 ```
 File: <UE5_installation>\Engine\Shaders\Private\BasePassPixelShader.usf
-Line: 1193
+Line: 5.3=1125, 5.4=1152, 5.5=1193, 5.6=1214
 Expected text: GBuffer.GBufferAO = AOMultiBounce( Luminance( GBuffer.SpecularColor ), ShadingOcclusion.SpecOcclusion ).g;
 Replace with:  //GBuffer.GBufferAO = AOMultiBounce( Luminance( GBuffer.SpecularColor ), ShadingOcclusion.SpecOcclusion ).g;
 ```
 
 ```
 File: <UE5_installation>\Engine\Shaders\Private\MobileBasePassPixelShader.usf
-Line: 604
+Line: 5.3=530, 5.4=585, 5.5=604, 5.6=598
 Expected text: GBuffer.GBufferAO = AOMultiBounce(Luminance(GBuffer.SpecularColor), ShadingOcclusion.SpecOcclusion).g;
 Replace with:  //GBuffer.GBufferAO = AOMultiBounce(Luminance(GBuffer.SpecularColor), ShadingOcclusion.SpecOcclusion).g;
 ```
@@ -38,7 +38,7 @@ Replace with:  //GBuffer.GBufferAO = AOMultiBounce(Luminance(GBuffer.SpecularCol
 ### Prevent SubSurfaceScattering shading model from using GBufferAO
 ```
 File: <UE5_installation>\Engine\Shaders\Private\ShadingModels.ush
-Line: 794
+Line: 5.3=807, 5.4=807, 5.5=819, 5.6=794
 Expected text: const half BackScatter = GBuffer.GBufferAO * NormalContribution / (PI * 2);
 Replace with:  const half BackScatter = NormalContribution / (PI * 2);
 ```
@@ -46,14 +46,14 @@ Replace with:  const half BackScatter = NormalContribution / (PI * 2);
 ### Prevent non lumen lighting from using GBufferAO
 ```
 File: <UE5_installation>\Engine\Shaders\Private\ReflectionEnvironmentPixelShader.usf
-Line: 198
+Line: 5.3=166, 5.4=198, 5.5=198, 5.6=198
 Expected text: float AO = GBuffer.GBufferAO * AmbientOcclusion;
 Replace with:  float AO = AmbientOcclusion;
 ```
 
 ```
 File: <UE5_installation>\Engine\Shaders\Private\SkyLightingDiffuseShared.ush
-Line: 91
+Line: 5.3=91, 5.4=91, 5.5=91, 5.6=91
 Expected text: FSkyLightVisibilityData SkyVisData = GetSkyLightVisibilityData(SkyLightingNormal, GBuffer.WorldNormal, GBuffer.GBufferAO, AmbientOcclusion, BentNormal);
 Replace with:  FSkyLightVisibilityData SkyVisData = GetSkyLightVisibilityData(SkyLightingNormal, GBuffer.WorldNormal, 1, AmbientOcclusion, BentNormal);
 ```
