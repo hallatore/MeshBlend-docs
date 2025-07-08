@@ -6,6 +6,9 @@ order: 1
 
 MeshBlend can be used to many different things. It's just a tool. You might find uses for it beyond those listed here 😎
 
+> [!NOTE]
+> Most of the things shown here are available in the [playable demo](https://drive.google.com/file/d/1BOzZkNZaa3oVsfl1yqchq9VoSyjKFb1F/view)!
+
 ## Landscape
 
 Make meshes feel part of the landscape
@@ -33,6 +36,12 @@ Make snow meshes look like one winter landscape.
 Even perfect kits can have tiny seams between them. Using a small blend is a good way to help remove those tiny imperfections. 
 
 [/BeforeAfter/Kitbash_Wall_Off.png|/BeforeAfter/Kitbash_Wall_On.png]
+
+---
+
+Or use it to blend larger pieces together.
+
+[/BeforeAfter/Tree_Off.png|/BeforeAfter/Tree_On.png]
 
 ## Reduce foliage seams
 
