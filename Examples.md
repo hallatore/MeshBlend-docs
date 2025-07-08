@@ -21,3 +21,9 @@ Blend rocks making them feel like one cliff
 ---
 
 [/BeforeAfter/Terrain_A_Off.png|/BeforeAfter/Terrain_A_On.png]
+
+## Blend kitbash seams
+
+Even perfect kits can have tiny seams between them. Using a small blend is a good way to remove those tiny imperfections. 
+
+[/BeforeAfter/Kitbash_Wall_Off.png|/BeforeAfter/Kitbash_Wall_On.png]
