@@ -55,9 +55,9 @@ export function imageComparerPlugin(md) {
             </div>
             <div class="slider" style="">
                 <button></button>
-                <div class="beforeDescription">Default</div>
-                <div class="afterDescription">MeshBlend</div>
             </div>
+            <div class="beforeDescription">Standard</div>
+            <div class="afterDescription">MeshBlend</div>
             <div class="before" style="">
                 <img alt="" src="${beforeImage}">
             </div>

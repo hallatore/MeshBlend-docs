@@ -117,29 +117,31 @@
 .ImageComparer .box .slider button:hover {
   background-color: #777;
 }
-.ImageComparer .box .slider .afterDescription,
-.ImageComparer .box .slider .beforeDescription {
+.ImageComparer .box .afterDescription,
+.ImageComparer .box .beforeDescription {
   position: absolute;
   white-space: nowrap;
   color: #fff;
-  text-shadow: -1px -1px 2px #000, 1px 1px 2px #000;
   text-align: left;
-}
-.ImageComparer .box .slider .afterDescription select,
-.ImageComparer .box .slider .beforeDescription select {
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
+  font-size: 16px;
+}
+.ImageComparer .box .afterDescription select,
+.ImageComparer .box .beforeDescription select {
+  padding: 5px 7px;
   border: 0;
   border-radius: 0;
   font-size: 16px;
 }
-.ImageComparer .box .slider .beforeDescription {
-  top: 10px;
-  right: 20px;
+.ImageComparer .box .beforeDescription {
+  bottom: 10px;
+  left: 10px;
 }
-.ImageComparer .box .slider .afterDescription {
-  top: 10px;
-  right: -520px;
-  width: 500px;
+.ImageComparer .box .afterDescription {
+  bottom: 10px;
+  right: 10px;
 }
 .ImageComparer .box .before {
   position: absolute;
@@ -216,8 +218,6 @@
   background: #777;
 }
 
-.ImageComparer .controls,
-.ImageComparer .beforeDescription,
-.ImageComparer .afterDescription {
+.ImageComparer .controls {
   display: none;
 }

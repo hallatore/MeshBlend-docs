@@ -21,6 +21,10 @@ MeshBlend is not yet available on **Fab**, but it will release soon!
 <br>
 In the meantime join the [Discord](https://discord.gg/sX48CssHWM) or follow me on [Bluesky](https://bsky.app/profile/hallatore.bsky.social) or [Twitter](https://x.com/toreler) to be notified when it launches!
 
+## Examples
+
+Check out the [Examples page](./Examples.md) to see how MeshBlend can be used!
+
 ## Playable demo
 
 The demo showcases different usages and allows you to evaluate visual quality as well as performance.
