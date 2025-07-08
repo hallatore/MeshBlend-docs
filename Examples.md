@@ -19,6 +19,10 @@ Make meshes feel part of the landscape
 
 Blend rocks making them feel like one cliff
 
+<video controls src="./MeshBlend_Rocks.mp4" autoplay muted loop />
+
+---
+
 [/BeforeAfter/Cave_B_Off.png|/BeforeAfter/Cave_B_On.png]
 
 ---
@@ -48,3 +52,13 @@ Or use it to blend larger pieces together.
 Using a small blend is a good way to help remove those seams where foliage intersects with the ground.
 
 [/BeforeAfter/Grass_Off.png|/BeforeAfter/Grass_On.png]
+
+## Blend inner-mesh seams
+
+Using vertex color or a mask you can even do inner-mesh seam blending.
+
+<video controls src="./MeshBlend - Vertex blending.mp4" autoplay muted loop />
+
+---
+
+[/BeforeAfter/Trunk_Off.png|/BeforeAfter/Trunk_On.png]
