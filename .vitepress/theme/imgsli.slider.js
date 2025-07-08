@@ -224,8 +224,4 @@
       init(elements[i], images, basePath);
     }
   };
-
-  setTimeout(function () {
-    imgsli.slider(document.querySelectorAll(".ImageComparer"));
-  }, 1000);
 })(window.imgsli || (window.imgsli = {}));
