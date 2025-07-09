@@ -2,7 +2,7 @@
 
 Make sure you follow the setup guide word for word. There are some things that are easy to miss.
 
-1. **[Engine Setup](<Engine Setup/index.md>)**
+1. **[Engine Setup](<Engine Setup.md>)**
 
 2. **[Project Setup](<Project Setup.md>)**
 
