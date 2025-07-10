@@ -2,11 +2,9 @@
 
 Make sure you follow the setup guide word for word. There are some things that are easy to miss.
 
-1. **[Engine Setup](<Engine Setup.md>)**
+1. **[Setup](<Setup.md>)**
 
-2. **[Project Setup](<Project Setup.md>)**
-
-3. **[Using MeshBlend](<Using MeshBlend/index.md>)**
+2. **[Using MeshBlend](<Using MeshBlend/index.md>)**
 
 3. **[Blend Sizes](<Using MeshBlend/Blend Sizes.md>)**
 

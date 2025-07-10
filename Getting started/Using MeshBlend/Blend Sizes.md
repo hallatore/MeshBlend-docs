@@ -23,7 +23,7 @@ The blend sizes are (almost) equal to centimeters when two blending meshes lay f
 
 There are 4 preset sizes you can assign to a mesh. Small, Medium, Large and Extra Large.
 
-> [!NOTE]
+> [!TIP]
 > Think of the sizes are categories. Your project might want to use small for "weld small items", while other will use small for "pebbles and small rocks". You have 4 general categories you can group you mesh assets in.
 
 ### Changing sizes

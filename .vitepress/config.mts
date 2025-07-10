@@ -23,7 +23,7 @@ const sidebarOptions = {
   //
   // ============ [ GETTING MENU TITLE ] ============
   // useTitleFromFileHeading: true,
-  // useTitleFromFrontmatter: true,
+  useTitleFromFrontmatter: true,
   // useFolderLinkFromIndexFile: false,
   // useFolderTitleFromIndexFile: false,
   // frontmatterTitleFieldName: 'title',
