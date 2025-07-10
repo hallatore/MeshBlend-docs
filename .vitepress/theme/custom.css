@@ -13,3 +13,18 @@
 .VPDoc.has-aside .content-container {
   max-width: 1168px !important;
 }
+
+.custom-block.tip a,
+.custom-block.tip a:hover {
+  color: inherit;
+}
+
+.custom-block.tip {
+  background-color: #3e65ff;
+  color: #fff;
+}
+
+.dark .custom-block.tip {
+  background-color: #3e65ff;
+  color: #fff;
+}

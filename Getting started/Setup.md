@@ -10,7 +10,7 @@ order: 20
 - Enable **MeshBlend** plugin for project
 - Restart editor
 
-> [!NOTE]
+> [!NOTE] Editor Toolbar
 > You should see a B in the editor toolbar after restart.
 > <br>
 > <br>

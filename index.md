@@ -14,12 +14,12 @@ Games, offline rendering cinematics and virtual production in Unreal are all sup
 
 ## Where to buy
 
-MeshBlend is not yet available, but it will release soon on **Fab**.
+MeshBlend will release on **Fab** soon.
 <br>
 In the meantime join the growing [Discord community](https://discord.gg/sX48CssHWM) or follow me on [Bluesky](https://bsky.app/profile/hallatore.bsky.social), [Twitter](https://x.com/toreler) or [Youtube](https://www.youtube.com/@tore.lervik) to be notified when it launches!
 
 > [!TIP] Studio License
-> Due to popular demand I've started providing a [Studio License](<./Knowledgebase/Studio License.md>) directly. Read more about it [here](<./Knowledgebase/Studio License.md>)! 
+> Due to popular demand the [Studio License](<./Knowledgebase/Studio License.md>) is now available! 
 
 ## Examples
 

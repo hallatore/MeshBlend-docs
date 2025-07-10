@@ -6,7 +6,7 @@ order: 1
 
 MeshBlend can be used to many different things. It's just a tool. You might find uses for it beyond those listed here 😎
 
-> [!TIP]
+> [!TIP] Playable Demo
 > Most of the things shown here are available in the [playable demo](<Playable Demo.md>)!
 
 ## Landscape

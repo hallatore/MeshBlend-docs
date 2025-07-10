@@ -12,7 +12,7 @@ MeshBlend is a screen space effect. You can have 5 or 5.000.000 blended meshes i
 ## Shader performance
 Shader cost is ~0.2-0.4 ms on an average PC at 1440p render resolution. There are 4 quality presets targeting offline rendering and high end PC down to Xbox Series S/low end PCs, so this can be tuned to preference.
 
-> [!NOTE]
+> [!NOTE] In progress
 > Will update perf numbers closer to launch.
 
 ### 5.6 improvements

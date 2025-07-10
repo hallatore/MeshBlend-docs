@@ -12,7 +12,7 @@ The default setup uses the material Ambient Occlusion channel to send data betwe
 
 ### Shader changes (Reference list)
 
-> [!TIP]
+> [!DANGER] Shader Patcher tool
 > The shader changes are listed here as reference. Use the shader patcher tool in the [Setup](<../Getting started/Setup.md>) to update these.
 
 **Prevent Specular/Metalic values from modifying the GBufferAO data**

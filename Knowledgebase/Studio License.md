@@ -17,6 +17,6 @@ Send me an **[Email](mailto:tore+meshblend@lervik.com?subject=MeshBlend%20Studio
 <br>
 <br>
 
-> [!NOTE]
+> [!NOTE] FAB
 > *MeshBlend will be available on Fab soon.
 
