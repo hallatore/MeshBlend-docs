@@ -47,6 +47,12 @@ Or use it to blend larger pieces together.
 
 [/BeforeAfter/Tree_Off.png|/BeforeAfter/Tree_On.png]
 
+---
+
+Or really small pieces.
+
+[/BeforeAfter/Bat_Off.png|/BeforeAfter/Bat_On.png]
+
 ## Reduce foliage seams
 
 Using a small blend is a good way to help remove those seams where foliage intersects with the ground.
