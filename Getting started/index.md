@@ -8,6 +8,8 @@ Make sure you follow the setup guide word for word. There are some things that a
 
 3. **[Blend Sizes](<Using MeshBlend/Blend Sizes.md>)**
 
+4. **[Settings](<Settings.md>)**
+
 ## Common issues
 
 ### Mesh not blending in Debug View
