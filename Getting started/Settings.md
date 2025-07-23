@@ -23,8 +23,20 @@ Debug views for the plugin.
 [/BeforeAfter/Visualize_On.png|/BeforeAfter/Visualize_Off.png]
 > **Visualization On/OFF**
 
+### r.MeshBlend.Quality
 
-### Blend Size
+- Default: `3` **High**
+- Options:
+   - `1`: **Low** - Targets low end PCs and XBOX Series S
+   - `2`: **Medium** - Targets Medium PCs and consoles 
+   <br>
+   *(Best option in terms of quality/performance tradeoff)*
+   - `3`: **High** - Targets Medium PCs and up
+   - `4`: **Cinematic** - Targets offline rendering
+   <br>
+   *(NB: Not to be used with real time rendering as it hasn't been tuned with performance in mind)*
+
+### r.MeshBlend.[Size].Size
 
 Set the blend size for each preset size.
 
@@ -46,7 +58,7 @@ The blend sizes are (almost) equal to centimeters when two blending meshes lay f
 
 - Default: `30`
 
-### Blend Min Size
+### r.MeshBlend.[Size].MinSize
 
 The blend size is stable in world space, meaning if it's 30 cm at 1 meters away it's 30 cm at 100 meters away.
 
@@ -98,12 +110,13 @@ Setting MinSize high can make it possible to keep the blend size small, while al
 - Default: `0`
 - Options:
    - `0`: Off
-   - `1`: No per tick budget restrictions
+   - `1`: Disable any per tick budget restrictions
 
 Used for offline cinematics like **Sequencer** where you want every mesh to be activated from the very first frame.
-Enabling this disabled the tick budget on the **MeshBlend Activator Actor**.
+Enabling this disables the tick budget on the **MeshBlend Activator Actor**.
 
 When using the **Movie Render Queue** you should always set `r.MeshBlend.DisableRestrictions 1`
+
 
 ## MeshBlend Activator Actor
 
@@ -113,9 +126,33 @@ When using the **Movie Render Queue** you should always set `r.MeshBlend.Disable
 
 The activator ensures each mesh component in the scene has a blend ID. The blend ID is encoded into the **Custom Primitive Data** (Static Meshes), and **Per Instance Custom Data** (Instanced Static Meshes) for each component.
 
-To ensure no frame hitching this processing operates on a strict processing budget that is the max it's allowed to use per Tick.
+To ensure no frame hitching this processing operates on a strict max processing budget per tick. The activator is set to tick during `TG_DuringPhysics` and by default it's never allowed to use more than 0.3 ms.
 
-The blend IDs are encoded at packaging, so the activator mostly runs idle in a packaged game.
+The blend IDs are encoded at packaging, so the activator mostly idles in a packaged game.
 
 > [!NOTE]
 > Setting `r.MeshBlend.DisableRestrictions 1` disables this budget.
+
+
+## Advanced/Experimental Console Variables
+
+### r.MeshBlend.SlopeFactor
+
+- Default: `2.0`
+- Options: Value from `1.0` and up.
+
+Sets how much falloff the blend should have based on the angle of the seam. Meaning a 90 degree angle has half the blend as a flat surface with 0 degree angle at the seam.
+
+### r.MeshBlend.FrameDither
+
+- Default: `1`
+- Options: `0` or `1`
+
+Toggles if the plugin should dither the sampling position per frame. Useful if you are using a non-temporal AA like FXAA or SMAA.
+
+### r.MeshBlend.NoiseFactor
+
+- Default: `0.5`
+- Options: Value between `0.0` and `1.0`
+
+Sets how much influence the noise texture has on the blending.
