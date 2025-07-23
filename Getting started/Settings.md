@@ -2,39 +2,21 @@
 
 ## Console Variables
 
-### r.MeshBlend.Enable
+The console variables lets you adjust certain settings.
 
-- Default: `1`
-- Options: `0` or `1`
-
-Toggle the plugin effect and activator off or on.
-
-### r.MeshBlend.Visualize
-
-- Default: `0`
-- Options:
-   - `0`: Visualization off
-   - `1`: Visualize blend edges (white) and blend sizes.
-<br>
-`Small=Green, Medium=Cyan, Large=Blue, Extra Large=Red`
-
-Debug views for the plugin. 
-
-[/BeforeAfter/Visualize_On.png|/BeforeAfter/Visualize_Off.png]
-> **Visualization On/OFF**
+Update `<Project>/Config/DefaultEngine.ini` if you want the changed values to be permanent.
 
 ### r.MeshBlend.Quality
 
 - Default: `3` **High**
+- Note: Has the `ECVF_Scalability` flag set and can be used with scalability
 - Options:
    - `1`: **Low** - Targets low end PCs and XBOX Series S
    - `2`: **Medium** - Targets Medium PCs and consoles 
    <br>
-   *(Best option in terms of quality/performance tradeoff)*
+   *(Good option in terms of quality/performance tradeoff)*
    - `3`: **High** - Targets Medium PCs and up
-   - `4`: **Cinematic** - Targets offline rendering
-   <br>
-   *(NB: Not to be used with real time rendering as it hasn't been tuned with performance in mind)*
+   - `4`: **Cinematic** - Targets offline rendering *(Not to be used with real time rendering)*
 
 ### r.MeshBlend.[Size].Size
 
@@ -104,6 +86,27 @@ Setting MinSize high can make it possible to keep the blend size small, while al
 [/BeforeAfter/MinSize_B_1.png|/BeforeAfter/MinSize_B_15.png]
 > **MinSize 1 and 15 visualized**
 
+### r.MeshBlend.Enable
+
+- Default: `1`
+- Options: `0` or `1`
+
+Toggle the plugin effect and activator off or on.
+
+### r.MeshBlend.Visualize
+
+- Default: `0`
+- Options:
+   - `0`: Visualization off
+   - `1`: Visualize blend edges (white) and blend sizes
+<br>
+`Small=Green, Medium=Cyan, Large=Blue, Extra Large=Red`
+
+Debug views for the plugin. 
+
+[/BeforeAfter/Visualize_On.png|/BeforeAfter/Visualize_Off.png]
+> **Visualization On/OFF**
+
 
 ### r.MeshBlend.DisableRestrictions
 
@@ -149,6 +152,9 @@ Sets how much falloff the blend should have based on the angle of the seam. Mean
 - Options: `0` or `1`
 
 Toggles if the plugin should dither the sampling position per frame. Useful if you are using a non-temporal AA like FXAA or SMAA.
+
+> [!NOTE]
+> The initial release of the plugin has the best visual look with temporal AA solutions like TAA, TSR, DLSS, DLAA and FSR.
 
 ### r.MeshBlend.NoiseFactor
 
