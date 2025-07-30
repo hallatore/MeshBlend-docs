@@ -9,7 +9,3 @@ MeshBlend is a complex system and I've been working on for one and a half year. 
 ## Things coming later
 
 🚀 **Even better performance** - Do the heavy parts of the shader in a downsampled pass, bringing high quality blending to all target platforms.
-
-🎨 **Support Substrate** - Support substrate materials the same way normal materials are supported.
-
-🪄 **Easier setup** - Make it easier to setup the shader patching without having to manually edit engine files.
