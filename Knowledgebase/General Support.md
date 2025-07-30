@@ -18,6 +18,8 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Lumen**
 <br>
+:white_check_mark: **Substrate**
+<br>
 :white_check_mark: **Decals & Mesh Decals** - Decals blend as if they are part of the mesh. (See demo for exact details)
 <br>
 :white_check_mark: **Static Meshes, Landscapes, Skeletal meshes and even particle** - As long as they are opaque and write depth
@@ -41,17 +43,17 @@ The default launcher version setup uses the Material AO channel to transfer data
 
 ## Not validated yet or Planned for later
 
-:microscope: **Switch, Mobile, etc** - Should work, but has not been validated yet
+:microscope: **Switch, etc** - Should work, but has not been validated yet
 <br>
 :microscope: **No AA, FXAA, SMAA** - Works with `r.MeshBlend.FrameDither 0`, but final quality hasn't been tuned yet
 <br>
 :microscope: **VR (Deferred shading)** - Should technically work, but has not been validated yet
-<br>
-:hourglass: **Substrate materials** - Will be supported in a later update. (See roadmap)
 
 ## Not supported
 
 :x: **Forward shading** - Forward shading is not supported
+<br>
+:x: **Mobile render pass** - The mobile render pass lack the necessary gbuffer access in the PP stage
 <br>
 :x: **Translucent materials** - Translucent materials render after and won't be affected by MeshBlend
 <br>
