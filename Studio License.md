@@ -19,6 +19,5 @@ Send me an **[Email](mailto:tore+meshblend@lervik.com?subject=MeshBlend%20Studio
 <br>
 <br>
 
-> [!TIP] FAB
-> MeshBlend is also available on **[Fab](https://www.fab.com/listings/1f4abe73-4cda-42db-995a-c9f8ca4790e5)**
+<a href="https://www.fab.com/listings/1f4abe73-4cda-42db-995a-c9f8ca4790e5" class="fabLink">Get MeshBlend on Fab</a>
 

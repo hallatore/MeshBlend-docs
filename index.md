@@ -14,7 +14,7 @@ Games, offline rendering cinematics and virtual production in Unreal are all sup
 
 ## Where to buy
 
-MeshBlend is available on **[Fab](https://www.fab.com/listings/1f4abe73-4cda-42db-995a-c9f8ca4790e5)**
+<a href="https://www.fab.com/listings/1f4abe73-4cda-42db-995a-c9f8ca4790e5" class="fabLink">Get MeshBlend on Fab</a>
 <br>
 Due to popular demand a **[Studio License](<./Studio License.md>)** is also available! 
 

@@ -46,3 +46,19 @@
 .vp-doc h2 + h3 .header-anchor {
   top: 0;
 }
+
+.fabLink {
+  background: #3e65ff;
+  color: white !important;
+  text-decoration: none !important;
+  padding: 35px 30px;
+  border-radius: 15px;
+  font-size: 22px;
+  width: 100% !important;
+  display: block;
+  text-align: center;
+}
+
+.fabLink:hover {
+  background: #2c4bff;
+}
