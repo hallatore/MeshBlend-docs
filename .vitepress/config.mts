@@ -92,7 +92,10 @@ export default defineConfig(
         // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: "Home", link: "/" },
-          { text: "Fab", link: "https://discord.gg/sX48CssHWM" },
+          {
+            text: "Fab",
+            link: "https://www.fab.com/listings/1f4abe73-4cda-42db-995a-c9f8ca4790e5",
+          },
           { text: "Discord", link: "https://discord.gg/sX48CssHWM" },
         ],
         search: {

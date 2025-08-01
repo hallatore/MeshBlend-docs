@@ -38,3 +38,11 @@
   border-top: 0;
   padding-top: 0;
 }
+
+.vp-doc h3 .header-anchor {
+  top: 24px;
+}
+
+.vp-doc h2 + h3 .header-anchor {
+  top: 0;
+}
