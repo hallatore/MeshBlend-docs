@@ -10,6 +10,8 @@ Make sure you follow the setup guide word for word. There are some things that a
 
 4. **[Settings](<Settings.md>)**
 
+Youtube video going through setting up MeshBlend in a project: https://www.youtube.com/watch?v=C8bxiYUE8TE
+
 ## Common issues
 
 ### Mesh not blending in Debug View
