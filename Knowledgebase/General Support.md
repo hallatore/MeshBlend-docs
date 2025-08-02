@@ -55,6 +55,8 @@ The default launcher version setup uses the Material AO channel to transfer data
 <br>
 :x: **Mobile render pass** - The mobile render pass lack the necessary gbuffer access in the PP stage
 <br>
+:x: **Path tracing render pass** - The path tracing pass lack the necessary gbuffers in the PP stage
+<br>
 :x: **Translucent materials** - Translucent materials render after and won't be affected by MeshBlend
 <br>
 :x: **Stuff underneath a SingleWaterLayer plane** - SingleWaterLayer is an opaque shading model. So stuff underneath it is not rendered to depth. (*But the material itself can actually blend with other meshes*)
