@@ -27,6 +27,9 @@ r.AllowStaticLighting=False
 r.Lumen.ScreenProbeGather.MaterialAO=0
 ```
 
+> [!WARNING] NOTE
+> These changes are needed so that the plugin doesn't make meshes darker, since it's using the AO channel for data.
+
 ## 3. Shader Changes
 
 Use the shader patcher tool to make sure the material Ambient Occlusion channel doesn't affect Unreals lighting while using MeshBlend.
