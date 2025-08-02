@@ -16,9 +16,9 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Opaque materials (Surface, SubSurfaceScattering, Two-Sided, etc)**
 <br>
-:white_check_mark: **Nanite & Nanite displacement**
+:white_check_mark: **Nanite & Nanite displacement** - (Non Nanite works too)
 <br>
-:white_check_mark: **Lumen**
+:white_check_mark: **Lumen** - (Non lumen works too)
 <br>
 :white_check_mark: **Substrate**
 <br>
