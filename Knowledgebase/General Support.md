@@ -12,6 +12,8 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Unreal Engine 5.3 and up**
 <br>
+:white_check_mark: **Any UMeshComponent (StaticMesh, SkeletalMesh, InstancedStaticMesh, DynamicMesh, etc)**
+<br>
 :white_check_mark: **Opaque materials (Surface, SubSurfaceScattering, Two-Sided, etc)**
 <br>
 :white_check_mark: **Nanite & Nanite displacement**
@@ -25,6 +27,8 @@ Check on Discord to see if your use case has been tested by someone already.
 :white_check_mark: **Static Meshes, Landscapes, Skeletal meshes and even particle** - As long as they are opaque and write depth
 <br>
 :white_check_mark: **TAA, TSR, DLSS, FSR** - Works great with any temporal AA solution, upsampling and frame generation
+<br>
+:white_check_mark: **No AA, SMAA, FXAA** - Can be used with non temporal AA solutions. (Use r.MeshBlend.FrameDither 0 to disable sampling alterations per frame)
 <br>
 :white_check_mark: **PS5, Xbox Series X|S** - Works great on consoles
 <br>
