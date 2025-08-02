@@ -38,6 +38,12 @@ Now that the project is setup you can make a mesh blend. There are multiple ways
 
 You can set a static blend ID on a material. This is required by some meshes like landscapes and landscape grass. It can also be used to make multiple meshes appear like one mesh to the plugin, causing them to not blend between each other.
 
+> [!WARNING] NOTE
+> Meshes with the same static ID will never blend with each other.
+> <br>
+> <br>
+> So use this feature for stuff that either need a static ID (like landscape), or when you don't need the mesh to blend with other meshes of the same type. (like foliage where you want it to blend with the ground, but don't need each flower to blend with each other.)
+
 - Open the material instance
 - Set `MeshBlend / Use Static Value` to `true`
 - Set `MeshBlend / StaticAutoBlendID` to a corresponding value.
