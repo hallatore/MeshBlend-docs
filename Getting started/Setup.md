@@ -42,4 +42,4 @@ Use the shader patcher tool to make sure the material Ambient Occlusion channel 
 
 The Activator ensures each mesh is assign a correct blend ID. There should be one, and only one of this actor in your level at any time.
 
-- Add the `/Plugins/MeshBlend Content/PB_MeshBlend_Activator` blueprint to your level.
+- Add the `/Plugins/MeshBlend Content/BP_MeshBlend_Activator` blueprint to your level.
