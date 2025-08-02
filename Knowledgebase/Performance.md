@@ -7,13 +7,15 @@ order: 10
 
 
 ## How many meshes can it blend?
-MeshBlend is a screen space effect. You can have 5 or 5.000.000 blended meshes in your scene without much performance impact.
+MeshBlend is a screen space effect, so the amount of meshes being blended isn't a big factor. You can have 5 or 5.000.000 blended meshes in your scene without much performance impact.
 
 ## Shader performance
 Shader cost is ~0.2-0.4 ms on an average PC at 1440p render resolution. There are 4 quality presets targeting offline rendering and high end PC down to Xbox Series S/low end PCs, so this can be tuned to preference.
 
-> [!NOTE] In progress
-> Will update perf numbers closer to launch.
+> [!NOTE] PROFILING
+> The demo project is built with debug so you can profile it using Unreal Insight.
+> <br>
+> MeshBlend also shows up in Stat GPU
 
 ### 5.6 improvements
 
