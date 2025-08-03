@@ -34,6 +34,8 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Sequencer** - Use overscan for best results
 <br>
+:white_check_mark: **VR (Desktop, Deferred shading)** - Supported on UE5.6+
+<br>
 :hourglass: **Virtual Production|NDisplay** - Use overscan for best results (*Note yet validated: Currently being tested on a HUGE XR Led wall*)
 <br>
 
@@ -50,8 +52,6 @@ The default launcher version setup uses the Material AO channel to transfer data
 :microscope: **Switch, etc** - Should work, but has not been validated yet
 <br>
 :microscope: **No AA, FXAA, SMAA** - Works with `r.MeshBlend.FrameDither 0`, but final quality hasn't been tuned yet
-<br>
-:microscope: **VR (Deferred shading)** - Should technically work, but has not been validated yet
 
 ## Not supported
 
