@@ -12,6 +12,8 @@ MeshBlend is a screen space effect, so the amount of meshes being blended isn't 
 ## Shader performance
 Shader cost is ~0.2-0.4 ms on an average PC at 1440p render resolution. There are 4 quality presets targeting offline rendering and high end PC down to Xbox Series S/low end PCs, so this can be tuned to preference.
 
+For more exact performance numbers I recommend downloading the [playable demo](</Playable Demo.md>) and profile it using Unreal Insight.
+
 > [!NOTE] PROFILING
 > The demo project is built with debug so you can profile it using Unreal Insight.
 > <br>
