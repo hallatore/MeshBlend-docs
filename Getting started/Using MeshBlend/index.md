@@ -6,13 +6,24 @@ order: 30
 
 ## Update Material
 
-The material needs to be updated for a mesh to blend.
+**Example using a normal material**
+![Update material](./UpdateMaterial.jpg)
+
+**Example using a material that uses material attributes**
+![Update material attributes](./UpdateMaterialAttributes.jpg)
+
+---
+
+**The material needs to be updated for a mesh to blend.**
 
 1. Add the `MeshBlend_Activator [Index X]` material function to your material and hook it up to the correct output channel. (Default is Ambient Occlusion)
 2. Disconnect anything going to the AO in materials that are not blending (characters, items, etc). If not, they will show up in the MeshBlend debug view.
 
+> [!WARNING] NOTE
+> Make sure you connect the function to the **final output channel** of the material.
+
 > [!NOTE] Custom Primitive Data
-> The index on the material function corresponds to the Custom Primitive Data index it is supposed to use. If your material is already using CPDs you need to duplicate the material function and modify it to use the correct index.
+> The index on the material function corresponds to the Custom Primitive Data index it is supposed to use. If your material is already using CPDs you need to duplicate the material function and modify it to use an available index.
 
 ### Blend ID
 
