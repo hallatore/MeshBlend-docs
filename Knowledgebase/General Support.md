@@ -36,6 +36,8 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **VR (Desktop, Deferred shading)** - Supported on UE5.6+
 <br>
+:white_check_mark: **Split/Multiscreen rendering** - Supported on UE5.6+
+<br>
 :hourglass: **Virtual Production|NDisplay** - Use overscan for best results (*Note yet validated: Currently being tested on a HUGE XR Led wall*)
 <br>
 
