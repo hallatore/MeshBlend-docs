@@ -14,6 +14,16 @@ The material needs to be updated for a mesh to blend.
 > [!NOTE] Custom Primitive Data
 > The index on the material function corresponds to the Custom Primitive Data index it is supposed to use. If your material is already using CPDs you need to duplicate the material function and modify it to use the correct index.
 
+### Blend ID
+
+At it's core the MeshBlend shader works on a grayscale mask where each mesh has a value (0 - 255) that holds the blend size and unique ID.
+
+[/BeforeAfter/Mask_Off.png|/BeforeAfter/Mask_On.png]
+
+The activator blueprint ensures each mesh gets a value that is not overlapping with any intersecting meshes, since we only have a limited number of values to choose from.
+
+Read more about this in [Rules of Blending](</Knowledgebase/Rules of Blending.md>).
+
 ## Blend meshes
 
 Now that the project is setup you can make a mesh blend. There are multiple ways to achieve this.
@@ -57,6 +67,8 @@ Now that the project is setup you can make a mesh blend. There are multiple ways
 ![Static blend ID](./StaticBlendId.jpg)
 
 You can set a static blend ID on a material. This is required by some meshes like landscapes and landscape grass. It can also be used to make multiple meshes appear like one mesh to the plugin, causing them to not blend between each other.
+
+The static values are values not used by the activator. So we can safely use these manually.
 
 > [!WARNING] NOTE
 > Meshes with the same static ID will never blend with each other.
