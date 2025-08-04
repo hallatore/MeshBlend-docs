@@ -20,22 +20,41 @@ Now that the project is setup you can make a mesh blend. There are multiple ways
 
 ### A - Mesh Assets
 
+![Asset Action](./AssetAction.jpg)
+
 - Go to the mesh in your content browser that you want to blend
 - Right click and choose `Scripted Asset Actions -> MeshBlend` and choose a size
 - Any affected meshes in your level will automatically refresh
 
 > [!NOTE] Asset User Data
-> This helper function stores the size on the mesh asset as a Asset User Data. You can also edit it there.
+> This helper function stores the size on the mesh asset as a Asset User Data. You can also edit it manually in the asset.
 
 ### B - Mesh Actors
+
+![Actor Action](./ActorAction.jpg)
 
 - Find the mesh in your level you want to blend
 - Right click and choose `Scriptet Actor Actions -> MeshBlend` and choose a size
 
 > [!NOTE] Actor Tag
-> This helper function stores the size on the mesh asset as a tag on the actor.
+> This helper function stores the size on the mesh asset as a Tag on the actor.
+> <br>
+> <br>
+> You can also set these directly in the Actor or Component Tags
+> <br>
+> Tag names are:
+>
+> ```
+> AutoBlend_Small
+> AutoBlend_Medium
+> AutoBlend_Large
+> AutoBlend_ExtraLarge
+> AutoBlend_Disabled
+> ```
 
 ### C - Static blend ID on material
+
+![Static blend ID](./StaticBlendId.jpg)
 
 You can set a static blend ID on a material. This is required by some meshes like landscapes and landscape grass. It can also be used to make multiple meshes appear like one mesh to the plugin, causing them to not blend between each other.
 
@@ -58,6 +77,8 @@ You can set a static blend ID on a material. This is required by some meshes lik
 > Medium:      65-69
 > Large:       128-132
 > Extra Large: 191-195
+> 
+> ALWAYS REMBER TO DIVIDE THIS NUMBER BY 255 WHEN INPUTING IT
 > ```
 
 > [!NOTE] Static/Dynamic activation
