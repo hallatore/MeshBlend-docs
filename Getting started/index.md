@@ -1,31 +1,28 @@
 # Getting Started
 
-Make sure you follow the setup guide word for word. There are some things that are easy to miss.
+> [!WARNING] VIDEO GUIDE
+> Please watch the whole video **BEFORE** following the steps below. 
+> <br>
+> The setup process is complex and things are easy to miss!
+> <br>
+> <br>
+> 
+> <a href="https://www.youtube.com/watch?v=C8bxiYUE8TE" target="_blank" class="fabLink">Watch Getting Started Video</a>
 
-1. **[Setup](<Setup.md>)**
+---
 
-2. **[Using MeshBlend](<Using MeshBlend/index.md>)**
+**Make sure you follow the setup guide word for word. Some things are easy to miss.**
 
-3. **[Blend Sizes](<Using MeshBlend/Blend Sizes.md>)**
+1. **[Setup](<Setup.md>)** - Takes you through the initial setup
 
-4. **[Settings](<Settings.md>)**
+3. **[Blend Sizes](<Blend Sizes.md>)** - Learn how the blend sizes work
 
-Youtube video going through setting up MeshBlend in a project: https://www.youtube.com/watch?v=C8bxiYUE8TE
+4. **[Settings](<Settings.md>)** - List of all settings available to you
 
-## Common issues
+## Having issues or questions?
 
-### Mesh not blending in Debug View
+- Check out [Common Issues](<../Knowledgebase/Common Issues.md>) section
+- Join the Discord to see what's new, and what other people are using MeshBlend for
+- Check the `#meshblend-questions` or send me a DM if you're having issues
 
-- Check that the mesh material has the correct material function hooked up to the Ambient Occlusion channel
-
-### Mesh showing multiple colors in Debug View
-
-- Check that the mesh material does not have an AO texture hooked up to the Ambient Occlusion channel. It should either be blank or have a MeshBlend Activator function hooked up
-
-### Landscape/Landscape Grass is not blending
-
-- Landscapes need a static blend ID and cannot be set with the helper function. See more about it in [Using MeshBlend](<Using MeshBlend/index.md>)
-
-### Mesh not blending after material update
-
-- Toggle MeshBlend OFF/ON from the editor toolbar. This resets all meshes and their blend.
+<iframe src="https://discord.com/widget?id=1279047221362294964&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>

@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 ---
 
 # Rules of Blending
@@ -18,6 +18,6 @@ There is helper function to recalculate a blend ID at runtime if needed, and the
 
 ### Other notes
 
-![Different blend sizes in debug view](</Getting started/Using MeshBlend/BlendSizes_Debug.png>)
+![Different blend sizes in debug view](</Getting started/BlendSizes_Debug.png>)
 
 - The blend size is always the smallest of the two intersecting sizes. A landscape set to Large blend with a pebble set to small will result in a small blend between the two.
