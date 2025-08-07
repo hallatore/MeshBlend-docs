@@ -11,8 +11,6 @@
 
 ---
 
-**Make sure you follow the setup guide word for word. Some things are easy to miss.**
-
 1. **[Setup](<Setup.md>)** - Takes you through the initial setup
 
 3. **[Blend Sizes](<Blend Sizes.md>)** - Learn how the blend sizes work
