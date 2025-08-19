@@ -24,7 +24,7 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Lumen** - (Non lumen works too)
 <br>
-:white_check_mark: **Substrate**
+:white_check_mark: **Substrate** - Supported on UE5.5+
 <br>
 :white_check_mark: **Decals & Mesh Decals** - Decals blend as if they are part of the mesh. (See demo for exact details)
 <br>
