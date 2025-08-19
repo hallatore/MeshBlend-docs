@@ -8,6 +8,8 @@ Unreal is used in many ways and not all use cases have been validated yet. Mater
 <br>
 Check on Discord to see if your use case has been tested by someone already.
 
+### Gaming / General
+
 :white_check_mark: **Launcher version** - Works with both launcher and source built versions of Unreal Engine.
 <br>
 :white_check_mark: **Unreal Engine 5.3 and up**
@@ -34,11 +36,16 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **PS5, Xbox Series X|S** - Works great on consoles
 <br>
-:white_check_mark: **Sequencer** - Use overscan for best results
-<br>
 :white_check_mark: **VR (Desktop, Deferred shading)** - Supported on UE5.6+
 <br>
 :white_check_mark: **Split/Multiscreen rendering** - Supported on UE5.6+
+<br>
+
+### Cinematics / Virtual production / Offline rendering
+
+:white_check_mark: **Offline rendering with Spatial/Temporal Sample Count > 1** - Works great with offline rendering using sample counts instead of default AA
+<br>
+:white_check_mark: **Sequencer** - Use overscan for best results
 <br>
 :hourglass: **Virtual Production|NDisplay** - Use overscan for best results (*Note yet validated: Currently being tested on a HUGE XR Led wall*)
 <br>
@@ -51,11 +58,13 @@ The default launcher version setup uses the Material AO channel to transfer data
 <br>
 :x: **Material AO** - No mesh in the project can use Material AO. Having it hooked up will lead to a slight blur that will show up in the MeshBlend Debug View.
 
-## Not validated yet or Planned for later
+## Not fully validated yet / Planned for later
 
 :microscope: **Switch, etc** - Should work, but has not been validated yet
 <br>
-:microscope: **No AA, FXAA, SMAA** - Works with `r.MeshBlend.FrameDither 0`, but final quality hasn't been tuned yet
+:microscope: **No AA, FXAA, SMAA** - Works with `r.MeshBlend.FrameDither 0`, but final quality hasn't been tuned yet. 
+<br>
+Note: *Offline rendering with no AA using multiple Spatial/Temporal sample counts works fine.*
 
 ## Not supported
 
