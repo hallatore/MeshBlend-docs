@@ -34,7 +34,7 @@ The demo showcases different usages and allows you to evaluate visual quality as
 
 <iframe style="width:100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/xyG963F4q-8?si=ppKGy6B9rwvZ6_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Used by
+## Some of our customers
 
 <div class="used-by">
 <div><a target="_blank" href="https://unknownworlds.com/"><img src="/UsedBy/UnknownWorlds.webp" alt="Unknown Worlds"/></a></div>
