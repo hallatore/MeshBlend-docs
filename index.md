@@ -43,7 +43,7 @@ The demo showcases different usages and allows you to evaluate visual quality as
 <div><a target="_blank" href="https://store.steampowered.com/app/2154070/INDUSTRIA_2/"><img src="/UsedBy/Bleakmill.png" alt="Bleakmill"/></a></div>
 <!-- <div><a target="_blank" href="#"><img src="/UsedBy/GravityWell.png" alt="Gravity Well"/></a></div> -->
 <div><a target="_blank" href="https://www.ernstborg.studio/"><img src="/UsedBy/EBStudio.png" alt="EB Studio"/></a></div>
-<!-- <div><a target="_blank" href="#"><img src="/UsedBy/Bellum.webp" alt="Bellum"/></a></div> -->
+<div><a target="_blank" href="https://playbellum.com/"><img src="/UsedBy/Bellum.png" alt="Bellum"/></a></div>
 <div><a target="_blank" href="https://www.youtube.com/@officialtreehousegames"><img src="/UsedBy/TreehouseGames.png" alt="Treehouse Games"/></a></div>
 <div><a target="_blank" href="https://stairwaygames.com/"><img src="/UsedBy/Stairway.png" alt="Stair Way"/></a></div>
 <div><a target="_blank" href="https://store.steampowered.com/app/3651990/Waystone/"><img src="/UsedBy/Waystone.png" alt="Waystone"/></a></div>
