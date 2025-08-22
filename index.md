@@ -30,7 +30,7 @@ The demo showcases different usages and allows you to evaluate visual quality as
 
 [Download link](https://drive.google.com/file/d/1BOzZkNZaa3oVsfl1yqchq9VoSyjKFb1F/view)
 
-## See what the Subnautica 2 devs are saying about MeshBlend
+## Hear what the Subnautica 2 devs are saying about MeshBlend
 
 <iframe style="width:100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/xyG963F4q-8?si=ppKGy6B9rwvZ6_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
