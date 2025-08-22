@@ -83,6 +83,7 @@ export default defineConfig(
           },
         ],
       ],
+      apperance: "dark",
       markdown: {
         config: (md) => {
           md.use(imageComparerPlugin);
