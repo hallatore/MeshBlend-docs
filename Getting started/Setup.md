@@ -12,7 +12,7 @@ order: 20
 > <br>
 > <br>
 > 
-> <a href="https://www.youtube.com/watch?v=C8bxiYUE8TE" target="_blank" class="fabLink">Watch Getting Started Video</a>
+> <a href="https://www.youtube.com/watch?v=C8bxiYUE8TE&embeds_referring_euri=https%3A%2F%2Fmeshblend.lervik.com%2F" target="_blank" class="fabLink">Watch Getting Started Video</a>
 
 
 ### Setup will go through the following
@@ -68,6 +68,9 @@ The Activator ensures each mesh is assign a correct blend ID. There should be on
 
 - Add the `/Plugins/MeshBlend Content/BP_MeshBlend_Activator` blueprint to your level.
 
+> [!WARNING] NOTE
+> If you can't find it, make sure Plugin Content is checked in the Content Browser Filter.
+
 ## 5. Update Materials
 
 **Example using a normal material**
@@ -106,7 +109,7 @@ For most meshes you want to use either the [Mesh Assets](#a-mesh-assets) or [Mes
 ### A - Mesh Assets
 
 > [!WARNING] VIDEO GUIDE
-> Shown at 2:32 in the [Getting started video](https://www.youtube.com/watch?v=C8bxiYUE8TE&t=152s).
+> Shown at 2:32 in the [Getting started video](https://www.youtube.com/watch?v=C8bxiYUE8TE&embeds_referring_euri=https%3A%2F%2Fmeshblend.lervik.com%2F&t=152s).
 
 ![Asset Action](./AssetAction.jpg)
 
@@ -120,7 +123,7 @@ For most meshes you want to use either the [Mesh Assets](#a-mesh-assets) or [Mes
 ### B - Mesh Actors
 
 > [!WARNING] VIDEO GUIDE
-> Shown at 4:12 in the [Getting started video](https://www.youtube.com/watch?v=C8bxiYUE8TE&t=252s).
+> Shown at 4:12 in the [Getting started video](https://www.youtube.com/watch?v=C8bxiYUE8TE&embeds_referring_euri=https%3A%2F%2Fmeshblend.lervik.com%2F&t=252s).
 
 ![Actor Action](./ActorAction.jpg)
 
@@ -146,7 +149,7 @@ For most meshes you want to use either the [Mesh Assets](#a-mesh-assets) or [Mes
 ### C - Static blend ID on material
 
 > [!WARNING] VIDEO GUIDE
-> Shown at 1:01 in the [Getting started video](https://www.youtube.com/watch?v=C8bxiYUE8TE&t=61s).
+> Shown at 1:01 in the [Getting started video](https://www.youtube.com/watch?v=C8bxiYUE8TE&embeds_referring_euri=https%3A%2F%2Fmeshblend.lervik.com%2F&t=61s).
 
 > [!NOTE]
 > Only use this approach when you need to. In most cases it's usually better to set it on the mesh [asset](#a-mesh-assets) or [actor](#b-mesh-actors) directly.

@@ -7,7 +7,7 @@
 > <br>
 > <br>
 > 
-> <a href="https://www.youtube.com/watch?v=C8bxiYUE8TE" target="_blank" class="fabLink">Watch Getting Started Video</a>
+> <a href="https://www.youtube.com/watch?v=C8bxiYUE8TE&embeds_referring_euri=https%3A%2F%2Fmeshblend.lervik.com%2F" target="_blank" class="fabLink">Watch Getting Started Video</a>
 
 ---
 
