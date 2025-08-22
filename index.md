@@ -30,6 +30,28 @@ The demo showcases different usages and allows you to evaluate visual quality as
 
 [Download link](https://drive.google.com/file/d/1BOzZkNZaa3oVsfl1yqchq9VoSyjKFb1F/view)
 
+## See what the Subnautica 2 devs are saying about MeshBlend
+
+<iframe style="width:100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/xyG963F4q-8?si=ppKGy6B9rwvZ6_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Used by
+
+<div class="used-by">
+<div><a target="_blank" href="https://unknownworlds.com/"><img src="/UsedBy/UnknownWorlds.webp" alt="Unknown Worlds"/></a></div>
+<!-- <div><a target="_blank" href="#"><img src="/UsedBy/TNM.svg" alt="That's No Moon"/></a></div> -->
+<div><a target="_blank" href="https://cyan.com/"><img src="/UsedBy/Cyan.png" alt="Cyan"/></a></div>
+<div><a target="_blank" href="https://store.steampowered.com/app/2154070/INDUSTRIA_2/"><img src="/UsedBy/Bleakmill.png" alt="Bleakmill"/></a></div>
+<!-- <div><a target="_blank" href="#"><img src="/UsedBy/GravityWell.png" alt="Gravity Well"/></a></div> -->
+<div><a target="_blank" href="https://www.ernstborg.studio/"><img src="/UsedBy/EBStudio.png" alt="EB Studio"/></a></div>
+<!-- <div><a target="_blank" href="#"><img src="/UsedBy/Bellum.webp" alt="Bellum"/></a></div> -->
+<div><a target="_blank" href="https://treehousegames.com/"><img src="/UsedBy/TreehouseGames.png" alt="Treehouse Games"/></a></div>
+<div><a target="_blank" href="https://stairwaygames.com/"><img src="/UsedBy/Stairway.png" alt="Stair Way"/></a></div>
+<div><a target="_blank" href="https://store.steampowered.com/app/3651990/Waystone/"><img src="/UsedBy/Waystone.png" alt="Waystone"/></a></div>
+</div>
+
+
+
+
 ## Discord Community
 
 Have questions or wonder what MeshBlend can do? Join the Discord to see the latest!

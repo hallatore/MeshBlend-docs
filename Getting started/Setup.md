@@ -78,7 +78,7 @@ The Activator ensures each mesh is assign a correct blend ID. There should be on
 
 ---
 
-**The material needs to be updated for a mesh to blend.**
+**Each master material needs to be updated for a mesh to blend.**
 
 1. Add the `MeshBlend_Activator [Index X]` material function to your material and hook it up to the correct output channel. (Default is Ambient Occlusion)
 2. Disconnect anything going to the AO in materials that are not blending (characters, items, etc). If not, they will show up in the MeshBlend debug view.
@@ -88,13 +88,6 @@ The Activator ensures each mesh is assign a correct blend ID. There should be on
 
 > [!NOTE] Custom Primitive Data
 > The index on the material function corresponds to the Custom Primitive Data index it is supposed to use. If your material is already using CPDs you need to duplicate the material function and modify it to use an available index.
-
-> [!NOTE] Blend ID
-> At it's core the MeshBlend shader works on a grayscale mask where each mesh has a value (0 - 255) that holds the blend size and unique ID.
-> 
-> The activator blueprint ensures each mesh gets a value that is not overlapping with any intersecting meshes, since we only have a limited number of values to choose from.
-> 
-> Read more about this in [Rules of Blending](</Knowledgebase/Rules of Blending.md>).
 
 ## 6. Blend meshes
 
@@ -174,7 +167,7 @@ The static values are values not used by the activator.
 - Set `MeshBlend / Use Static Value` to `true` <br>*When toggling `Use Static Value` off you need to click Refresh Actors after saving the material instance*
 - Set `MeshBlend / StaticAutoBlendID` to a corresponding value.
 
-> [!NOTE] Static blend ID
+> [!WARNING] Static blend ID
 > Static blend IDs for landscape, foliage & special cases (Remember to divide by 255 in parameter input)
 > <br>
 > Examples: 2/255 or 5/255 give a small blend, 67/255 gives a medium blend, etc.
@@ -186,6 +179,13 @@ The static values are values not used by the activator.
 > 
 > ALWAYS REMBER TO DIVIDE THIS NUMBER BY 255 WHEN INPUTING IT
 > ```
+
+> [!NOTE] Blend ID
+> At it's core the MeshBlend shader works on a grayscale mask where each mesh has a value (0 - 255) that holds the blend size and unique ID.
+> 
+> The activator blueprint ensures each mesh gets a value that is not overlapping with any intersecting meshes, since we only have a limited number of values to choose from.
+> 
+> Read more about this in [Rules of Blending](</Knowledgebase/Rules of Blending.md>).
 
 > [!NOTE] Static/Dynamic activation
 > Landscape and Landscape Grass are not dynamically activated and need to have a static ID set
