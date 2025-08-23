@@ -72,6 +72,14 @@
   border-radius: 8px;
 }
 
+@media (max-width: 768px) {
+  .used-by {
+    margin: 0 -24px;
+    border-radius: 0;
+    padding: 30px;
+  }
+}
+
 .used-by div {
   flex-shrink: 0;
   width: calc(100% / 3 - 20% / 3);
