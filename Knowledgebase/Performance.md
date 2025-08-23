@@ -21,9 +21,9 @@ For more exact performance numbers it's recommended to download the [playable de
 
 ### Profiling considerations
 
-When profiling the performance of MeshBlend there are some things that can give inacurate results.
+When profiling the performance of MeshBlend there are some things that can give inaccurate results.
 
-#### 1. Meshes with AO stil active
+#### 1. Meshes with AO still active
 
 ![Mesh with AO](./MeshWithAO.jpg)
 
@@ -33,7 +33,7 @@ Materials that still have AO can make the shader think every single pixel on tha
 
 ![Async GPU workload in Unreal Insights](./AsyncWorkloads.jpg)
 
-Use Unreal Insight the ensure no async GPU work is running parallel. `r.TSR.AsyncCompute 3` is one example that makes the TemporalSuperResolution run at the same time as MeshBlend and other Post Process effect. This might speed up the overall FPS, but it makes it impossible to evaluate the frametime for MeshBlend alone.
+Use Unreal Insight the check if any async GPU work is running parallel. `r.TSR.AsyncCompute 3` is one example that makes the TemporalSuperResolution run at the same time as MeshBlend and other Post Process effects. This might speed up the overall FPS, but it makes it impossible to evaluate the frametime for MeshBlend accurately.
 
 ### UE5.6 improvements
 
@@ -44,4 +44,4 @@ This can be backported by integrating [this commit](https://github.com/EpicGames
 ## Actor performance
 The plugin has a MeshBlend Activator Actor that runs in the level. 
 - In editor this is restricted to a max ms budget (default: 0.3 ms)
-- In packaged game most of the work is pre-caluculated on packaging, so it generally just idles.
+- In packaged game most of the work is pre-calculated on packaging, so it generally just idles.

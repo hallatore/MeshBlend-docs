@@ -10,7 +10,7 @@ At it's core the MeshBlend shader works on a grayscale mask where each mesh has 
 
 ## This means a couple of things
 
-- Each blend size has a maximun 63 unique IDs. Meaning two meshes that overlap can theoretically get the same ID, and their seam won't blend. But in practice this is very rare.
+- Each blend size has a maximum 63 unique IDs. Meaning two meshes that overlap can theoretically get the same ID, and their seam won't blend. But in practice this is very rare.
 
 - The system calculates an available blend ID based on the bounds of all the meshes overlapping it. This means that if a mesh that is blended is moving around, the chance for it to intersect with something that has the same ID is higher.
 <br>

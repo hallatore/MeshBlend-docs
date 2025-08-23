@@ -70,9 +70,9 @@ Note: *Offline rendering with no AA using multiple Spatial/Temporal sample count
 
 :x: **Forward shading** - Forward shading is not supported
 <br>
-:x: **Mobile render pass** - The mobile render pass lack the necessary gbuffer access in the PP stage
+:x: **Mobile render pass** - The mobile render pass lack the necessary GBuffer access in the PP stage
 <br>
-:x: **Path tracing render pass** - The path tracing pass lack the necessary gbuffers in the PP stage
+:x: **Path tracing render pass** - The path tracing pass lack the necessary GBuffers in the PP stage
 <br>
 :x: **Translucent materials** - Translucent materials render after and won't be affected by MeshBlend
 <br>

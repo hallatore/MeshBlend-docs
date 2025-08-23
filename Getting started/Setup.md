@@ -128,7 +128,7 @@ For most meshes you want to use either the [Mesh Assets](#a-mesh-assets) or [Mes
 ![Actor Action](./ActorAction.jpg)
 
 - Find the mesh in your level you want to blend
-- Right click and choose `Scriptet Actor Actions -> MeshBlend` and choose a size
+- Right click and choose `Scripted Actor Actions -> MeshBlend` and choose a size
 
 > [!NOTE] Actor Tag
 > This helper function stores the size on the mesh asset as a Tag on the actor.
@@ -180,7 +180,7 @@ The static values are values not used by the activator.
 > Large:       128-132
 > Extra Large: 191-195
 > 
-> ALWAYS REMBER TO DIVIDE THIS NUMBER BY 255 WHEN INPUTING IT
+> ALWAYS REMEMBER TO DIVIDE THIS NUMBER BY 255 WHEN INPUTTING IT
 > ```
 
 > [!NOTE] Blend ID
@@ -193,4 +193,4 @@ The static values are values not used by the activator.
 > [!NOTE] Static/Dynamic activation
 > Landscape and Landscape Grass are not dynamically activated and need to have a static ID set
 > <br>
-> It's also adviced to use static IDs on foliage to improve performance.
+> It's also advised to use static IDs on foliage to improve performance.
