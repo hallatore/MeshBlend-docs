@@ -19,7 +19,23 @@ For more exact performance numbers it's recommended to download the [playable de
 > <br>
 > MeshBlend also shows up in Stat GPU
 
-### 5.6 improvements
+### Profiling considerations
+
+When profiling the performance of MeshBlend there are some things that can give inacurate results.
+
+#### 1. Meshes with AO stil active
+
+![Mesh with AO](./MeshWithAO.jpg)
+
+Materials that still have AO can make the shader think every single pixel on that mesh is an individual mesh that needs blending. Use the debug view to ensure no mesh in the scene is "sparkling".
+
+#### 2. Async GPU work
+
+![Async GPU workload in Unreal Insights](./AsyncWorkloads.jpg)
+
+Use Unreal Insight the ensure no async GPU work is running parallel. `r.TSR.AsyncCompute 3` is one example that makes the TemporalSuperResolution run at the same time as MeshBlend and other Post Process effect. This might speed up the overall FPS, but it makes it impossible to evaluate the frametime for MeshBlend alone.
+
+### UE5.6 improvements
 
 The plugin needs to do a texture copy when running in Unreal prior to 5.6. This has a tiny performance hit.
 
