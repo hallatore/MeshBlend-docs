@@ -45,6 +45,7 @@ The demo showcases different usages and allows you to evaluate visual quality as
 <div><a target="_blank" href="https://www.youtube.com/@officialtreehousegames"><img src="/UsedBy/TreehouseGames.png" alt="Treehouse Games"/></a></div>
 <div><a target="_blank" href="https://stairwaygames.com/"><img src="/UsedBy/Stairway.png" alt="Stair Way"/></a></div>
 <div><a target="_blank" href="https://store.steampowered.com/app/3651990/Waystone/"><img src="/UsedBy/Waystone.png" alt="Waystone"/></a></div>
+<div><a target="_blank" href="https://deepworlds.studio/"><img src="/UsedBy/DeepWorlds.png" alt="Deep Worlds"/></a></div>
 </div>
 
 
