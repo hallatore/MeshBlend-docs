@@ -82,6 +82,57 @@ export default defineConfig(
             "data-cf-beacon": '{"token": "4d0e440a9d8144fca348b79832e6aeef"}',
           },
         ],
+        [
+          "meta",
+          {
+            property: "og:title",
+            content: "MeshBlend - If it's a mesh, we can blend it",
+          },
+        ],
+        [
+          "meta",
+          {
+            property: "og:description",
+            content:
+              "MeshBlend brings next generation blending to Unreal. Blend any mesh with any mesh.",
+          },
+        ],
+        [
+          "meta",
+          {
+            property: "og:image",
+            content: "https://meshblend.lervik.com/Logo.jpg",
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:card",
+            content: "summary_large_image",
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:title",
+            content: "MeshBlend - If it's a mesh, we can blend it",
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:description",
+            content:
+              "MeshBlend brings next generation blending to Unreal. Blend any mesh with any mesh.",
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:image",
+            content: "https://meshblend.lervik.com/Logo.jpg",
+          },
+        ],
       ],
       apperance: "dark",
       markdown: {
