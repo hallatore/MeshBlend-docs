@@ -17,6 +17,8 @@
 
 4. **[Settings](<Settings.md>)** - List of all settings available to you
 
+5. **[IOS/Android/Consoles](<HybridTargets.md>)** - If your project targets other platforms please read this!
+
 ## Having issues or questions?
 
 - Check out [Common Issues](<../Knowledgebase/Common Issues.md>) section

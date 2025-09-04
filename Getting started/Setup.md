@@ -87,7 +87,9 @@ The Activator ensures each mesh is assign a correct blend ID. There should be on
 2. Disconnect anything going to the AO in materials that are not blending (characters, items, etc). If not, they will show up in the MeshBlend debug view.
 
 > [!WARNING] NOTE
-> Make sure you connect the function to the **final output channel** of the material.
+> * Make sure you connect the function to the **final output channel** of the material.
+> <br>
+> * For **material layers** ensure you set it up in the base material and not one of the blend layers.
 
 > [!NOTE] Custom Primitive Data
 > The index on the material function corresponds to the Custom Primitive Data index it is supposed to use. If your material is already using CPDs you need to duplicate the material function and modify it to use an available index.
