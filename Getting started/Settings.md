@@ -90,6 +90,61 @@ Setting MinSize high can make it possible to keep the blend size small, while al
 [/BeforeAfter/MinSize_B_1.png|/BeforeAfter/MinSize_B_15.png]
 > **MinSize 1 and 15 visualized**
 
+### r.MeshBlend.SlopeFactor
+
+- Default: `2.0`
+- Options: Value from `1.0` and up.
+
+Sets how much falloff the blend should have based on the angle of the seam. Meaning a 90 degree angle has half the blend as a flat surface with 0 degree angle at the seam.<br>
+It's a subtle effect that helps make the result more convincing.
+
+In this example the vertical seam between two rocks stays the same width creating a smooth transition, while the 90-degree seam where the rocks meet the sand is reduced.
+
+![r.MeshBlend.SlopeFactor values](SlopeFactor.jpg)
+
+## Console Variables - Noise Texture
+
+### r.MeshBlend.NoiseFactor
+
+- Default: `0.5`
+- Options: Value between `0.0` and `1.0`
+
+Sets how much influence the noise texture has on the blending.
+
+The noise pattern tries to make the blend look natural and aims to break any linear feel to it. While it works good in many use cases, there is probably potential for more stylized noise effects in the future.
+
+![r.MeshBlend.NoiseFactor values](NoiseFactor.jpg)
+
+### r.MeshBlend.NoiseFade
+
+- Default: `0.5`
+- Options: Value between `0.0` and `1.0`
+
+Sets how much, from the seam, that the noise should fade. 0 means no fade. 1 means fade from seam to edge.
+
+![r.MeshBlend.NoiseFade values](NoiseFade.jpg)
+
+### r.MeshBlend.NoiseOffset
+
+- Default: `0.0`
+- Options: Value between `-1.0` and `1.0`
+
+Offsets the noise value `(NoiseValue + NoiseOffset)` to either increase or decrease it's influence.
+
+### r.MeshBlend.NoiseTexture
+
+- Default: ``
+- Options: Texture asset path
+
+Sets a custom noise texture to be used.
+
+### r.MeshBlend.NoiseTileSize
+
+- Default: `10`
+- Options: A positive value
+
+Sets the tiling of the noise texture.
+
 ### r.MeshBlend.Enable
 
 - Default: `1`
@@ -143,18 +198,6 @@ The blend IDs are encoded at packaging, so the activator mostly idles in a packa
 
 ## Advanced/Experimental Console Variables
 
-### r.MeshBlend.SlopeFactor
-
-- Default: `2.0`
-- Options: Value from `1.0` and up.
-
-Sets how much falloff the blend should have based on the angle of the seam. Meaning a 90 degree angle has half the blend as a flat surface with 0 degree angle at the seam.<br>
-It's a subtle effect that helps make the result more convincing.
-
-In this example the vertical seam between two rocks stays the same width creating a smooth transition, while the 90-degree seam where the rocks meet the sand is reduced.
-
-![r.MeshBlend.SlopeFactor values](SlopeFactor.jpg)
-
 ### r.MeshBlend.FrameDither
 
 - Default: `1`
@@ -164,14 +207,3 @@ Toggles if the plugin should dither the sampling position per frame. Useful if y
 
 > [!NOTE]
 > The initial release of the plugin has the best visual look with temporal AA solutions like TAA, TSR, DLSS, DLAA and FSR.
-
-### r.MeshBlend.NoiseFactor
-
-- Default: `0.5`
-- Options: Value between `0.0` and `1.0`
-
-Sets how much influence the noise texture has on the blending.
-
-The noise pattern tries to make the blend look natural and aims to break any linear feel to it. While it works good in many use cases, there is probably potential for more stylized noise effects in the future.
-
-![r.MeshBlend.NoiseFactor values](NoiseFactor.jpg)

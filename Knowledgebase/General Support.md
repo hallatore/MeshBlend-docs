@@ -74,6 +74,18 @@ Note: *Offline rendering with no AA using multiple Spatial/Temporal sample count
 <br>
 :x: **Path tracing render pass** - The path tracing pass lack the necessary GBuffers in the PP stage
 <br>
-:x: **Translucent materials** - Translucent materials render after and won't be affected by MeshBlend
+:x: **Translucent materials** - Translucent materials can't be made to blend
 <br>
 :x: **Stuff underneath a SingleWaterLayer plane** - SingleWaterLayer is an opaque shading model. So stuff underneath it is not rendered to depth. (*But the material itself can actually blend with other meshes*)
+
+## Things to consider
+
+### Translucent materials
+
+Translucent materials render by default "After DOF". With this setting they are applied to the final image after the MeshBlend effect. When using the "Before DOF" mode the translucent material is applied before the MeshBlend effect. For most materials like windows etc this is not noticeable.
+
+Note: Translucent Refractions affect the SceneColor of the render, but not any of the other GBuffer textures. This means refractions can make a seam miss-align with the blending seam.
+
+*The playable demo has some worst-case windows that uses both "Before DOF" and refractions.*
+
+![Windows](Windows.jpg)
