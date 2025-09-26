@@ -18,7 +18,7 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **PCG, BPs, PLAs, ISM/HISM, Foliage, Landscape Grass, +++**
 <br>
-:white_check_mark: **Opaque materials (Surface, SubSurfaceScattering, Two-Sided, etc)**
+:white_check_mark: **Opaque and Masked materials (Surface, SubSurfaceScattering, Two-Sided, etc)**
 <br>
 :white_check_mark: **Nanite & Nanite displacement** - (Non Nanite works too)
 <br>
@@ -28,7 +28,7 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Decals & Mesh Decals** - Decals blend as if they are part of the mesh. (See demo for exact details)
 <br>
-:white_check_mark: **Static Meshes, Landscapes, Skeletal meshes and even particle** - As long as they are opaque and write depth
+:white_check_mark: **Static Meshes, Landscapes, Skeletal meshes and even particle** - As long as they are opaque/masked and write depth
 <br>
 :white_check_mark: **TAA, TSR, DLSS, FSR** - Works great with any temporal AA solution, upsampling and frame generation
 <br>
