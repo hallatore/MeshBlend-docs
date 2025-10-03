@@ -38,6 +38,7 @@ The demo showcases different usages and allows you to evaluate visual quality as
 <div><a target="_blank" href="https://unknownworlds.com/"><img src="/UsedBy/UnknownWorlds.webp" alt="Unknown Worlds"/></a></div>
 <!-- <div><a target="_blank" href="#"><img src="/UsedBy/TNM.svg" alt="That's No Moon"/></a></div> -->
 <div><a target="_blank" href="https://cyan.com/"><img src="/UsedBy/Cyan.png" alt="Cyan"/></a></div>
+<div><a target="_blank" href="https://www.croteam.com/"><img src="/UsedBy/Croteam.png" alt="Croteam"/></a></div>
 <div><a target="_blank" href="https://store.steampowered.com/app/2154070/INDUSTRIA_2/"><img src="/UsedBy/Bleakmill.png" alt="Bleakmill"/></a></div>
 <!-- <div><a target="_blank" href="#"><img src="/UsedBy/GravityWell.png" alt="Gravity Well"/></a></div> -->
 <div><a target="_blank" href="https://www.ernstborg.studio/"><img src="/UsedBy/EBStudio.png" alt="EB Studio"/></a></div>
