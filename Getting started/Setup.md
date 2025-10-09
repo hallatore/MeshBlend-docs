@@ -20,9 +20,8 @@ order: 20
 1. Enable the plugin
 2. Update DefaultEngine.ini
 3. Patch engine shaders
-4. Add MeshBlend Activator Actor to level
-5. Update Materials
-6. Blend meshes
+4. Update Materials
+5. Blend meshes
 
 **Each step is required to setup the plugin.<br>Make sure you follow the setup guide word for word. Some things are easy to miss.**
 
@@ -62,16 +61,7 @@ Use the shader patcher tool to make sure the material Ambient Occlusion channel 
 
 <video controls src="./MeshBlend_Shader_Patcher.mp4" autoplay muted loop />
 
-## 4. Add MeshBlend Activator Actor to level
-
-The Activator ensures each mesh is assign a correct blend ID. There should be one, and only one of this actor in your level at any time.
-
-- Add the `/Plugins/MeshBlend Content/BP_MeshBlend_Activator` blueprint to your level.
-
-> [!WARNING] NOTE
-> If you can't find it, make sure Plugin Content is checked in the Content Browser Filter.
-
-## 5. Update Materials
+## 4. Update Materials
 
 **Example using a normal material**
 ![Update material](./UpdateMaterial.jpg)
@@ -94,7 +84,7 @@ The Activator ensures each mesh is assign a correct blend ID. There should be on
 > [!NOTE] Custom Primitive Data
 > The index on the material function corresponds to the Custom Primitive Data index it is supposed to use. If your material is already using CPDs you need to duplicate the material function and modify it to use an available index.
 
-## 6. Blend meshes
+## 5. Blend meshes
 
 Now that the project is setup you can make a mesh blend. There are multiple ways to achieve this.
 
@@ -105,7 +95,6 @@ For most meshes you want to use either the [Mesh Assets](#a-mesh-assets) or [Mes
 > <br>
 > If it's still not working, double check the following:
 > - The material is updated with the material function
-> - The BP_MeshBlend_Activator is in the level
 > - The earlier setup steps have been followed (r.AllowStaticLighting is 0)
 
 ### A - Mesh Assets
@@ -188,7 +177,7 @@ The static values are values not used by the activator.
 > [!NOTE] Blend ID
 > At it's core the MeshBlend shader works on a grayscale mask where each mesh has a value (0 - 255) that holds the blend size and unique ID.
 > 
-> The activator blueprint ensures each mesh gets a value that is not overlapping with any intersecting meshes, since we only have a limited number of values to choose from.
+> The activator system ensures each mesh gets a value that is not overlapping with any intersecting meshes, since we only have a limited number of values to choose from.
 > 
 > Read more about this in [Rules of Blending](</Knowledgebase/Rules of Blending.md>).
 

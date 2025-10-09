@@ -166,6 +166,18 @@ Debug views for the plugin.
 [/BeforeAfter/Visualize_On.png|/BeforeAfter/Visualize_Off.png]
 > **Visualization On/OFF**
 
+### r.MeshBlend.ProcessBudget
+
+- Default: `0.3`
+
+The activator system ensures each mesh component in the scene has a blend ID. The blend ID is encoded into the **Custom Primitive Data** (Static Meshes), and **Per Instance Custom Data** (Instanced Static Meshes) for each component.
+
+To ensure no frame hitching this processing operates on a strict max processing budget per tick.
+
+The blend IDs are encoded at packaging, so the activator system mostly idles in a packaged game.
+
+> [!NOTE]
+> Setting `r.MeshBlend.DisableRestrictions 1` disables this budget.
 
 ### r.MeshBlend.DisableRestrictions
 
@@ -178,22 +190,6 @@ Used for offline cinematics like **Sequencer** where you want every mesh to be a
 Enabling this disables the tick budget on the **MeshBlend Activator Actor**.
 
 When using the **Movie Render Queue** you should always set `r.MeshBlend.DisableRestrictions 1`
-
-
-## MeshBlend Activator Actor
-
-### Process Budget (ms)
-
-- Default: `0.3`
-
-The activator ensures each mesh component in the scene has a blend ID. The blend ID is encoded into the **Custom Primitive Data** (Static Meshes), and **Per Instance Custom Data** (Instanced Static Meshes) for each component.
-
-To ensure no frame hitching this processing operates on a strict max processing budget per tick. The activator is set to tick during `TG_DuringPhysics` and by default it's never allowed to use more than 0.3 ms.
-
-The blend IDs are encoded at packaging, so the activator mostly idles in a packaged game.
-
-> [!NOTE]
-> Setting `r.MeshBlend.DisableRestrictions 1` disables this budget.
 
 
 ## Advanced/Experimental Console Variables
