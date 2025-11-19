@@ -33,7 +33,7 @@ Materials that still have AO can make the shader think every single pixel on tha
 
 ![Async GPU workload in Unreal Insights](./AsyncWorkloads.jpg)
 
-Use Unreal Insight the check if any async GPU work is running parallel. `r.TSR.AsyncCompute 3` is one example that makes the TemporalSuperResolution run at the same time as MeshBlend and other Post Process effects. This might speed up the overall FPS, but it makes it impossible to evaluate the frametime for MeshBlend accurately.
+Always ensure async compute is disabled globally with `r.RDG.AsyncCompute 0` when profiling MeshBlend. Otherwise the frame times will not be accurate.
 
 ### UE5.6 improvements
 
