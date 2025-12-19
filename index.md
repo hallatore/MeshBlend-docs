@@ -49,6 +49,8 @@ The demo showcases different usages and allows you to evaluate visual quality as
 <div><a target="_blank" href="https://deepworlds.studio/"><img src="/UsedBy/DeepWorlds.png" alt="Deep Worlds"/></a></div>
 <div><a target="_blank" href="https://www.teamkillmedia.com/"><img src="/UsedBy/TeamkillMedia.png" alt="TEAMKILL MEDIA"/></a></div>
 <div><a target="_blank" href="https://polyhaven.com/"><img src="/UsedBy/PolyHaven.png" alt="Poly Haven"/></a></div>
+<div><a target="_blank" href="https://www.redthreadgames.com/"><img src="/UsedBy/RedThread.png" alt="Red Thread Games"/></a></div>
+<div><a target="_blank" href="https://www.snowcastlegames.com/lysward"><img src="/UsedBy/Lysward.png" alt="Lysward"/></a></div>
 </div>
 
 
