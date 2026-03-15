@@ -9,7 +9,7 @@ title: MeshBlend
 description: Next generation blending for Unreal Engine
 ---
 
-<section class="section section-full section-top">
+<section class="section section-dark section-full section-top">
     <video class="section-bg hide-mobile" src="/MeshBlend_Splash.mp4" autoplay muted loop />
     <img class="section-bg show-mobile" src="/splash-temp.jpg" alt="">
     <div class="landing">
