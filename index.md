@@ -10,8 +10,8 @@ description: Next generation blending for Unreal Engine
 ---
 
 <section class="section section-full section-top">
-    <!-- <video class="section-bg" src="./MeshBlend_Rock_Clip.mp4" autoplay muted loop /> -->
-    <img class="section-bg" src="/splash-temp.jpg" alt="">
+    <video class="section-bg hide-mobile" src="/MeshBlend_Splash.mp4" autoplay muted loop />
+    <img class="section-bg show-mobile" src="/splash-temp.jpg" alt="">
     <div class="landing">
         <img class="landing-logo" src="/MeshBlend.svg" alt="MeshBlend">
         <p class="landing-description">Next generation blending for Unreal Engine</p>      

@@ -260,6 +260,7 @@
   display: flex;
   gap: 40px;
   align-items: center;
+  width: 100%;
 }
 
 .side-by-side > * {
@@ -299,7 +300,23 @@
   height: 32px;
 }
 
+.hide-mobile {
+  display: block;
+}
+
+.show-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+
   .top-nav {
     visibility: collapse;
     height: 1px;
