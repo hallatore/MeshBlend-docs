@@ -16,7 +16,7 @@ description: Next generation blending for Unreal Engine
         <img class="landing-logo" src="/MeshBlend.svg" alt="MeshBlend">
         <p class="landing-description">Next generation blending for Unreal Engine</p>      
         <div class="buttons">
-            <a href="#main-content">Discover</a>
+            <a href="#" onclick="document.getElementById('main-content').scrollIntoView({ behavior: 'smooth', block: 'start' })">Discover</a>
             <a href="/Getting started/">Documentation</a>
         </div>  
     </div>
