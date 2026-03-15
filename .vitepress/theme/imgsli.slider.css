@@ -53,7 +53,9 @@
   left: 20px;
   white-space: nowrap;
   color: #fff;
-  text-shadow: -1px -1px 2px #000, 1px 1px 2px #000;
+  text-shadow:
+    -1px -1px 2px #000,
+    1px 1px 2px #000;
 }
 .ImageComparer .box .controls {
   position: absolute;
@@ -95,7 +97,7 @@
   right: calc(50% - 1px);
   bottom: 0;
   width: 2px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.9);
   border-top: 0;
   border-bottom: 0;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);

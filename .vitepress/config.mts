@@ -134,7 +134,7 @@ export default defineConfig(
           },
         ],
       ],
-      apperance: "dark",
+      appearance: "force-dark",
       markdown: {
         config: (md) => {
           md.use(imageComparerPlugin);
@@ -159,6 +159,6 @@ export default defineConfig(
         cleanUrls: true,
       },
     },
-    sidebarOptions
-  )
+    sidebarOptions,
+  ),
 );
