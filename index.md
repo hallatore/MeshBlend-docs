@@ -36,15 +36,15 @@ description: Next generation blending for Unreal Engine
 
 <section class="section section-content">
     <div class="side-by-side">
-        <video src="./MeshBlend_Rocks.mp4" autoplay muted loop />
+        <video src="./MeshBlend_Rocks_compressed.mp4" autoplay muted loop />
         <p>MeshBlend is an Unreal Engine plugin enabling controllable blending of meshes. It's been battle tested and is used in real projects with different art styles and requirements ranging from Indie to AAA titles.</p>
     </div>
     <div class="side-by-side side-reverse">
-        <video src="./MeshBlend - Geometry Decals 2.mp4" autoplay muted loop />
+        <video src="./MeshBlend - Geometry Decals 2_compressed.mp4" autoplay muted loop />
         <p>MeshBlend supports a wide range of scenarios and delivers a visually pleasing result at great performance!</p>
     </div>
     <div class="side-by-side">
-        <video src="./MeshBlend_Rock_Clip.mp4" autoplay muted loop />
+        <video src="./MeshBlend_Rock_Clip_compressed.mp4" autoplay muted loop />
         <p>MeshBlend supports blending between any type of meshes, and not just meshes against landscape like with RVT blending.</p>
     </div>
     <div class="side-by-side side-reverse">
