@@ -6,7 +6,7 @@ aside: false
 footer: false
 pageClass: home-landing
 title: MeshBlend
-description: Next generation blending for Unreal Engine
+description: Next generation blending for Unreal Engine 5
 ---
 
 <section class="section section-dark section-full section-top">
@@ -14,7 +14,7 @@ description: Next generation blending for Unreal Engine
     <img class="section-bg show-mobile" src="/splash-temp.jpg" alt="">
     <div class="landing">
         <img class="landing-logo" src="/MeshBlend.svg" alt="MeshBlend">
-        <p class="landing-description">Next generation blending for Unreal Engine</p>      
+        <p class="landing-description">Next generation blending for Unreal Engine 5</p>      
         <div class="buttons">
             <a href="#" onclick="document.getElementById('main-content').scrollIntoView({ behavior: 'smooth', block: 'start' })">Discover</a>
             <a href="/Getting started/">Documentation</a>
@@ -37,7 +37,7 @@ description: Next generation blending for Unreal Engine
 <section class="section section-content">
     <div class="side-by-side">
         <video src="./MeshBlend_Rocks_compressed.mp4" autoplay muted loop />
-        <p>MeshBlend is an Unreal Engine plugin enabling controllable blending of meshes. It's been battle tested and is used in real projects with different art styles and requirements ranging from Indie to AAA titles.</p>
+        <p>MeshBlend is an Unreal Engine 5 plugin enabling controllable blending of meshes. It's been battle tested and is used in real projects with different art styles and requirements ranging from Indie to AAA titles.</p>
     </div>
     <div class="side-by-side side-reverse">
         <video src="./MeshBlend - Geometry Decals 2_compressed.mp4" autoplay muted loop />

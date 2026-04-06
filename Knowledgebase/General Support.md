@@ -10,7 +10,7 @@ Check on Discord to see if your use case has been tested by someone already.
 
 ### Gaming / General
 
-:white_check_mark: **Launcher version** - Works with both launcher and source built versions of Unreal Engine.
+:white_check_mark: **Launcher version** - Works with both launcher and source built versions of Unreal Engine 5.
 <br>
 :white_check_mark: **Unreal Engine 5.3 and up**
 <br>
