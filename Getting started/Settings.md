@@ -12,14 +12,14 @@ Update `<Project>/Config/DefaultEngine.ini` if you want the changed values to be
 
 ### r.MeshBlend.Quality
 
-- Default: `3` **High**
+- Default: `2` **Medium**
 - Note: Has the `ECVF_Scalability` flag set and can be used with scalability
 - Options:
-   - `1`: **Low** - Targets low end PCs and XBOX Series S
+   - `1`: **Low** - Targets low end PCs, handhelds and XBOX Series S type hardware
    - `2`: **Medium** - Targets Medium PCs and consoles 
    <br>
    *(Good option in terms of quality/performance tradeoff)*
-   - `3`: **High** - Targets Medium PCs and up
+   - `3`: **High** - Targets High end PCs
    - `4`: **Cinematic** - Targets offline rendering *(Not to be used with real time rendering)*
 
 ### r.MeshBlend.[Size].Size
