@@ -15,7 +15,6 @@
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-  image-rendering: pixelated;
 }
 
 .ImageComparer :focus {
@@ -27,7 +26,6 @@
 .ImageComparer.zoom .box .before img,
 .ImageComparer.zoom .box img.after {
   transform: scale(3);
-  image-rendering: pixelated;
   max-width: unset;
 }
 .ImageComparer .box {

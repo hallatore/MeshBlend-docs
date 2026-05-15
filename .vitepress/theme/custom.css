@@ -225,6 +225,26 @@
   line-height: 1.2;
 }
 
+.sn2-thumbnails {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.sn2-thumbnails img {
+  width: 200px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  filter: brightness(42%);
+}
+
+.sn2-thumbnails button.is-active img {
+  filter: none;
+  outline: 4px solid #333;
+}
+
 .top-nav {
   position: sticky;
   top: 0;

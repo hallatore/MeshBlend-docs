@@ -55,6 +55,38 @@ description: Next generation blending for Unreal Engine 5
 
 <section class="section section-content section-dark">
 <h2>MeshBlend in<br>Subnautica 2</h2>
+
+<div style="width: 100%">
+
+<script>
+    if (typeof window !== "undefined") {
+        window.setSn2 = function(number, btn) {
+            const beforeUrl = `/Subnautica2/SN2_${number}_off.jpg`;
+            const afterUrl = `/Subnautica2/SN2_${number}_on.jpg`;
+            const container = document.querySelector("#image-comparer-sn2");
+            container.querySelector("div.before img").src = beforeUrl;
+            container.querySelector("img.after").src = afterUrl;
+
+            document.querySelectorAll(".sn2-thumbnails button").forEach(b => b.classList.remove("is-active"));
+            btn.classList.add("is-active");
+
+            return false;
+        }
+    }
+</script>
+<ul class="sn2-thumbnails">
+<li><button class="is-active" onclick="window.setSn2(11, this)"><img src="/Subnautica2/SN2_11_on.jpg" alt="" /></button></li>
+<li><button onclick="window.setSn2(6, this)"><img src="/Subnautica2/SN2_6_on.jpg" alt="" /></button></li>
+<li><button onclick="window.setSn2(9, this)"><img src="/Subnautica2/SN2_9_on.jpg" alt="" /></button></li>
+<li><button onclick="window.setSn2(5, this)"><img src="/Subnautica2/SN2_5_on.jpg" alt="" /></button></li>
+<li><button onclick="window.setSn2(3, this)"><img src="/Subnautica2/SN2_3_on.jpg" alt="" /></button></li>
+<li><button onclick="window.setSn2(2, this)"><img src="/Subnautica2/SN2_2_on.jpg" alt="" /></button></li>
+</ul>
+<div>
+        <div class="ImageComparer" id="image-comparer-sn2" data-imgsli-initialized="true"><div class="box"><div class="controls"><a href="#" class="zoom-in" title="toggle zoom"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M0 14.304q0-5.92 4.192-10.112t10.112-4.192 10.176 4.192 4.192 10.112q0 4.512-2.624 8.192l5.952 5.952-3.552 3.552-5.952-5.952q-3.68 2.624-8.192 2.624-5.92 0-10.112-4.192t-4.192-10.176zM4.064 14.304q0 4.256 3.008 7.264t7.232 2.976 7.264-2.976 3.008-7.264-3.008-7.2-7.264-2.976-7.232 2.976-3.008 7.2zM8.192 16.384v-4.064h4.128v-4.128h4.064v4.128h4.128v4.064h-4.128v4.128h-4.064v-4.128h-4.128z"></path></svg></a><a href="#" class="zoom-out" title="toggle zoom"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M0 14.304q0-5.92 4.192-10.112t10.112-4.192 10.176 4.192 4.192 10.112q0 4.512-2.624 8.192l5.952 5.952-3.552 3.552-5.952-5.952q-3.68 2.624-8.192 2.624-5.92 0-10.112-4.192t-4.192-10.176zM4.064 14.304q0 4.256 3.008 7.264t7.232 2.976 7.264-2.976 3.008-7.264-3.008-7.2-7.264-2.976-7.232 2.976-3.008 7.2zM8.192 16.384v-4.064h12.32v4.064h-12.32z"></path></svg></a><a href="#" class="fullscreen" title="toggle fullscreen"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M4.576 20.576H0V32h11.424v-4.576H4.576v-6.848zM0 11.424h4.576V4.576h6.848V0H0v11.424zm27.424 16h-6.848V32H32V20.576h-4.576v6.848zM20.576 0v4.576h6.848v6.848H32V0H20.576z"></path></svg></a><a href="#" class="fullscreen-exit" title="toggle fullscreen"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M0 25.152h6.848V32h4.576V20.576H0v4.576zM6.848 6.848H0v4.576h11.424V0H6.848v6.848zM20.576 32h4.576v-6.848H32v-4.576H20.576V32zm4.576-25.152V0h-4.576v11.424H32V6.848h-6.848z"></path></svg></a></div><div class="slider" style="left: 360.4px;"><button></button></div><div class="beforeDescription">Standard</div><div class="afterDescription">MeshBlend</div><div class="before" style="right: 407.6px;"><img alt="" src="/Subnautica2/SN2_11_off.jpg"></div><img class="after" alt="" src="/Subnautica2/SN2_11_on.jpg"></div></div>
+</div>
+</div>
+
 <iframe style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/xyG963F4q-8?si=ppKGy6B9rwvZ6_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
 
@@ -67,7 +99,6 @@ description: Next generation blending for Unreal Engine 5
         <div><a target="_blank" href="https://www.croteam.com/"><img src="/UsedBy/Croteam.png" alt="Croteam"/></a></div>
         <div><a target="_blank" href="https://store.steampowered.com/app/2154070/INDUSTRIA_2/"><img src="/UsedBy/Bleakmill.png" alt="Bleakmill"/></a></div>
         <!-- <div><a target="_blank" href="#"><img src="/UsedBy/GravityWell.png" alt="Gravity Well"/></a></div> -->
-        <div><a target="_blank" href="https://www.ernstborg.studio/"><img src="/UsedBy/EBStudio.png" alt="EB Studio"/></a></div>
         <div><a target="_blank" href="https://playbellum.com/"><img src="/UsedBy/Bellum.png" alt="Bellum"/></a></div>
         <div><a target="_blank" href="https://www.youtube.com/@officialtreehousegames"><img src="/UsedBy/TreehouseGames.png" alt="Treehouse Games"/></a></div>
         <div><a target="_blank" href="https://stairwaygames.com/"><img src="/UsedBy/Stairway.png" alt="Stair Way"/></a></div>
