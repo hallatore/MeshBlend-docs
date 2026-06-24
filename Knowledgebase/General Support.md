@@ -47,7 +47,7 @@ Check on Discord to see if your use case has been tested by someone already.
 <br>
 :white_check_mark: **Sequencer** - Use overscan for best results
 <br>
-:hourglass: **Virtual Production|NDisplay** - Use overscan for best results (*Note yet validated: Currently being tested on a HUGE XR Led wall*)
+:white_check_mark: **Virtual Production|NDisplay** - Use overscan for best results
 <br>
 
 ## Default Setup - Material AO
@@ -58,13 +58,11 @@ The default launcher version setup uses the Material AO channel to transfer data
 <br>
 :x: **Material AO** - No mesh in the project can use Material AO. Having it hooked up will lead to a slight blur that will show up in the MeshBlend Debug View.
 
-## Not fully validated yet / Planned for later
+### Alternative Setup - Custom GBuffer channel
 
-:microscope: **Switch, etc** - Should work, but has not been validated yet
-<br>
-:microscope: **No AA, FXAA, SMAA** - Works with `r.MeshBlend.FrameDither 0`, but final quality hasn't been tuned yet. 
-<br>
-Note: *Offline rendering with no AA using multiple Spatial/Temporal sample counts works fine.*
+Some projects fit the data into another channel so that they can keep using the Material AO channel. The plugin was made with this in mind, and you only need to do a small change to the plugin itself to support this.
+
+You can read more about this under [Advanced setup](<Advanced Setup.md>).
 
 ## Not supported
 
