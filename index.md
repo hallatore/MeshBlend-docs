@@ -53,7 +53,7 @@ description: Next generation blending for Unreal Engine 5
     </div>
 </section>
 
-<section class="section section-content section-dark">
+<section id="sn2" class="section section-content section-dark">
 <h2>MeshBlend in<br>Subnautica 2</h2>
 
 <div style="width: 100%">
@@ -90,7 +90,7 @@ description: Next generation blending for Unreal Engine 5
 <iframe style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/xyG963F4q-8?si=ppKGy6B9rwvZ6_sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
 
-<section class="section section-content">
+<section id="customers" class="section section-content">
     <h2>Some of our<br>customers</h2>
     <div class="used-by">
         <div><a target="_blank" href="https://unknownworlds.com/"><img src="/UsedBy/UnknownWorlds.webp" alt="Unknown Worlds"/></a></div>
